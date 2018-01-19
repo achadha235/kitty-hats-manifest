@@ -6,6 +6,8 @@ language: node_js
 node_js:
 - '8'
 deploy:
+  on:
+    branch: master
   provider: s3
   access_key_id: $AWS_KEY
   secret_access_key: $AWS_SECRET
@@ -14,7 +16,6 @@ deploy:
   region: us-west-2
   local_dir: build
   cache_control: "max-age=21600"
-
 after_deploy:
   # Allow `awscli` to make requests to CloudFront.
   - aws configure set preview.cloudfront true
