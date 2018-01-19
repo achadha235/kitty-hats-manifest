@@ -1,10 +1,11 @@
-env:
-  global:
-    - CLOUDFRONT_DISTRIBUTION_ID=""
-    secure: aynbi+sVSQFdfYrjT3E6lh625caJVUMn2usftP7ZbHKcV/zMHkcjmXuONro3FansTYaOcvWBaotwpiCLDZVUOr0/QV7LGbHLy/atXNyLOGWTzZauIkUaLbUD2D2wXqUFvwTm4kq3KyWU5Ub0S/29j0A9u0V0dPomBQOqtm8ODlVcGKI5pvtpQmJZ0eO/DZNA1qjcr0hv79iN4LbWC8FX0V18iDqhRDaitCMTAnAspkcRSdkPnFdLTUg6KGQVXTJ4hH2aCqJ31Jm3j7GGCch9rGkLi/GDNb8yY0rNRB6WR+h3OYaYF4ST25AnrHWrNEnQLjVFh4/xOr/RMI+xfpxo/t2ohVCqVlGP7CeHnBTJ2CQyFQOXR5AnpcC4LBdKPqrzG4ZzJn2IKI8iGA1UiRPPsYIulj64FcyFj3BHNdEPdSuVYANZ5XC1jru83IQCuBK4/+Iu6HZotiog3c3ccNpGQp1MNkygYcFnabbTurOLK4BIehQ7NwTkhRlk1+4LSdLZV6IJdmrfPoKffMc4Ynm8s1k2CL7eWQKjvzUReMj1CRJdUmYTsyCQSbPPe6VqCcUuIsPMKcGp2rnpDsAVCF/YXuYRUtq+RQ6FSvpIiyhFFBRbTmSwTZoCerHbDQ+e2hXeyov4I5Xn9OoPv/9bf3X4Jwc/sa8dw0Mb4xvEOajAdZ8=
 language: node_js
 node_js:
 - '8'
+
+env:
+  global:
+    secure: aynbi+sVSQFdfYrjT3E6lh625caJVUMn2usftP7ZbHKcV/zMHkcjmXuONro3FansTYaOcvWBaotwpiCLDZVUOr0/QV7LGbHLy/atXNyLOGWTzZauIkUaLbUD2D2wXqUFvwTm4kq3KyWU5Ub0S/29j0A9u0V0dPomBQOqtm8ODlVcGKI5pvtpQmJZ0eO/DZNA1qjcr0hv79iN4LbWC8FX0V18iDqhRDaitCMTAnAspkcRSdkPnFdLTUg6KGQVXTJ4hH2aCqJ31Jm3j7GGCch9rGkLi/GDNb8yY0rNRB6WR+h3OYaYF4ST25AnrHWrNEnQLjVFh4/xOr/RMI+xfpxo/t2ohVCqVlGP7CeHnBTJ2CQyFQOXR5AnpcC4LBdKPqrzG4ZzJn2IKI8iGA1UiRPPsYIulj64FcyFj3BHNdEPdSuVYANZ5XC1jru83IQCuBK4/+Iu6HZotiog3c3ccNpGQp1MNkygYcFnabbTurOLK4BIehQ7NwTkhRlk1+4LSdLZV6IJdmrfPoKffMc4Ynm8s1k2CL7eWQKjvzUReMj1CRJdUmYTsyCQSbPPe6VqCcUuIsPMKcGp2rnpDsAVCF/YXuYRUtq+RQ6FSvpIiyhFFBRbTmSwTZoCerHbDQ+e2hXeyov4I5Xn9OoPv/9bf3X4Jwc/sa8dw0Mb4xvEOajAdZ8=
+
 deploy:
   on:
     branch: master
@@ -17,7 +18,5 @@ deploy:
   region: us-west-2
   cache_control: "max-age=21600"
 after_deploy:
-  # Allow `awscli` to make requests to CloudFront.
   - aws configure set preview.cloudfront true
-  # Invalidate every object in the targeted distribution.
   - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
