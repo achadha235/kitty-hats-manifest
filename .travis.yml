@@ -6,8 +6,6 @@ language: node_js
 node_js:
 - '8'
 deploy:
-  on:
-    branch: master
   provider: s3
   access_key_id: $AWS_KEY
   secret_access_key: $AWS_SECRET
