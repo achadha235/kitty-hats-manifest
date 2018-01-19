@@ -62,13 +62,7 @@ async function main() {
                 console.warn(err);
                 continue;
             }
-
             for (const j in manifest.listing) {
-
-                if (isIgnoredFile(assets[j])) {
-                    continue;
-                }
-
                 const item = manifest.listing[j];
                 const imgName = `${item.image}.svg`;
                 const imageDefined = isNonNull(item.image) && fs.existsSync(path.join(artistsPath, artists[i], 'asset', imgName));
@@ -77,8 +71,9 @@ async function main() {
                 const addressDefined = isNonNull(item.contract) && isNonNull(contracts[item.contract]) && isNonNull(contracts[item.contract].networks[networkId].address);
                 const nameAvaliable = isNull(names[item.image]) && isNull(displayNames[item.displayName]);
                 const validCategory = isNonNull(item.category) && isNonNull(categories[item.category])
+
                 if (imageDefined === true && previewDefined === true && displayNameDefined === true && nameAvaliable === true) {
-                    console.log(`Copying asset ${item.displayName}`);
+                    console.log(`\t- Copying asset ${item.displayName}`);
                 } else {
                     const errs = [`There was an error with file ${item.image} for artist ${artists[i]}`];
                     if (!imageDefined) { errs.push('- Item image is not defined in correctly listing or file does not does not exist in asset folder ')}
@@ -87,6 +82,7 @@ async function main() {
                     if (!addressDefined) { errs.push(`- Item contract does not exist for the current network`)}
                     if (!nameAvaliable) { errs.push(`- Item name and / or display name already taken`)}
                     if (!validCategory) { errs.push(`- Item category is not defined or invalid`)}
+                    console.log("Warning");
                     console.error(new Error(errs.join('\n')));
                     continue;
                 }
@@ -94,7 +90,6 @@ async function main() {
                 if (isNull(listing[item.category])) {
                     listing[item.category] = { displayName: categories[item.category].displayName, items: [] }
                 }
-                console.log(listing[item.category].items);
                 listing[item.category].items.push({
                     name: item.displayName,
 					tokenAddress: contracts[item.contract].networks[networkId].address,
@@ -115,7 +110,6 @@ async function main() {
     
     await cleanDir(path.join(__dirname, 'build', 'asset'));
     await cleanDir(path.join(__dirname, 'build', 'preview'));
-    
     for (const category in listing) {
         for (const itemIdx in listing[category].items) {
             const catItem = listing[category].items[itemIdx];

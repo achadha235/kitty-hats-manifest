@@ -15,6 +15,13 @@
 				"assetUrl": "img/asset/mittens.svg"
 			},
 			{
+				"name": "Ballet Slippers",
+				"tokenAddress": "0xac740ff5f0ed950f63c86ee32ad87c0e54b50488",
+				"previewImage": "img/preview/balletslippers.svg",
+				"artist": "Kittyhawk",
+				"assetUrl": "img/asset/balletslippers.svg"
+			},
+			{
 				"name": "Yeezys",
 				"tokenAddress": "0x6615f387e7bc610c11066cb1e534ab0f07ed8424",
 				"previewImage": "img/preview/yeezy.svg",
@@ -38,7 +45,7 @@
 				"assetUrl": "img/asset/iwatch.svg"
 			},
 			{
-				"name": "lei",
+				"name": "Lei",
 				"tokenAddress": "0x5e064285ec172449a85643c2000a4f1b390e16c2",
 				"previewImage": "img/preview/lei.svg",
 				"assetUrl": "img/asset/lei.svg"
