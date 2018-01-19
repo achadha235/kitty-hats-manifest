@@ -1,5 +1,47 @@
 {
+  "name": "kitty-hats-manifest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateListing.js",
   "dependencies": {
-    "truffle-contract": "^3.0.2"
-  }
+    "ajv": "^5.5.2",
+    "bignumber.js": "^2.0.7",
+    "bn.js": "^4.11.6",
+    "co": "^4.6.0",
+    "crypto-js": "^3.1.8",
+    "ethjs-abi": "^0.1.8",
+    "fast-deep-equal": "^1.0.0",
+    "fast-json-stable-stringify": "^2.0.0",
+    "is-hex-prefixed": "^1.0.0",
+    "js-sha3": "^0.5.5",
+    "json-schema-traverse": "^0.3.1",
+    "number-to-bn": "^1.7.0",
+    "strip-hex-prefix": "^1.0.0",
+    "truffle-blockchain-utils": "^0.0.3",
+    "truffle-contract": "^3.0.2",
+    "truffle-contract-schema": "^1.0.1",
+    "utf8": "^2.1.2",
+    "web3": "^0.20.4",
+    "xhr2": "^0.1.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achadha235/kitty-hats-manifest.git"
+  },
+  "keywords": [
+    "cryptokitties",
+    "accessories",
+    "ERC20"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achadha235/kitty-hats-manifest/issues"
+  },
+  "homepage": "https://github.com/achadha235/kitty-hats-manifest#readme"
 }
