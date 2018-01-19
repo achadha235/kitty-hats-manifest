@@ -25,26 +25,8 @@ async function readJSONFile(path) {
 
 async function main() {
     const networkId = '1' || process.env.NETWORK_ID;
-    // Load truffle contracts 
     const contracts = await loadContracts();
     const categories = require('./categories.json');
-    // console.log(`Categories: `, Object.keys(cats));
-
-    // [ 'contractName',
-    // 'abi',
-    // 'bytecode',
-    // 'deployedBytecode',
-    // 'sourceMap',
-    // 'deployedSourceMap',
-    // 'source',
-    // 'sourcePath',
-    // 'ast',
-    // 'compiler',
-    // 'networks',
-    // 'schemaVersion',
-    // 'updatedAt' ]
-
-    // 1. Build listing of item categories for all the arists.
     const artists = fs.readdirSync(artistsPath);
     const names = {};
     const displayNames = {};
@@ -137,7 +119,6 @@ async function main() {
     for (const category in listing) {
         for (const itemIdx in listing[category].items) {
             const catItem = listing[category].items[itemIdx];
-            console.log('Listed item ', catItem);
             const file = path.join(__dirname, 'artists', catItem.artist, 'asset', `${catItem['__assetName']}.svg`);
             const filePreview = path.join(__dirname, 'artists', catItem.artist, 'preview', `${catItem['__assetName']}.svg`);
             fs.createReadStream(file).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'asset', `${catItem['__assetName']}.svg`)));
@@ -174,9 +155,12 @@ async function cleanDir(dir) {
 
 async function loadContracts() {
     const result = {};
-    const contractsDir = path.join(__dirname, 'kitty-hats-truffle', 'build', 'contracts')
+    const contractsDir = path.join(__dirname, 'kitty-hats-contracts');
     const files = fs.readdirSync(contractsDir);
     for (file of files) {
+        if (file === '.git') {
+            continue;
+        }
         const name = file.split('.')[0];
         const contents = await readJSONFile(path.join(contractsDir, file));
         result[name] = contract(contents);

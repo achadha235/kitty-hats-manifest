@@ -1,4 +1,4 @@
-[submodule "kitty-hats-truffle"]
-	path = kitty-hats-truffle
-	url = https://github.com/jordanmessina/kitty-hats-truffle
+[submodule "kitty-hats-contracts"]
+	path = kitty-hats-contracts
+	url = https://github.com/achadha235/kitty-hats-contracts.git
 	branch = master
