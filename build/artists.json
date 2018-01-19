@@ -1,0 +1,17 @@
+{
+	"KittyHats": {
+		"name": "KittyHats",
+		"address": "0x0",
+		"show": false
+	},
+	"Kittyhawk": {
+		"name": "Kittyhawk",
+		"address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+		"show": true
+	},
+	"sammyt": {
+		"name": "sammyt",
+		"address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+		"show": false
+	}
+}

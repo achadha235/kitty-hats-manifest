@@ -1,0 +1,15 @@
+{
+    "artist": {
+        "name": "sammyt",
+        "address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+        "show": false
+    },
+    "listing": [
+        {
+            "image": "yeezy",
+            "contract": "ItemYeezy",
+            "category": "shoes",
+            "displayName": "Yeezys"
+        }
+    ]
+}

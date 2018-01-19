@@ -1,0 +1,80 @@
+{
+    "artist": {
+        "name": "KittyHats",
+        "address": "0x0",
+        "show": false
+    },
+    "listing": [
+        {
+            "image": "chucks",
+            "contract": "ItemChucks",
+            "category": "shoes",
+            "displayName": "Chucks"
+        },{
+            "image": "collar",
+            "contract": "ItemEthereumCollar",
+            "category": "accessories",
+            "displayName": "Ethereum Collar"
+        },{
+            "image": "flatbrim",
+            "contract": "ItemFlatBrim",
+            "category": "hats",
+            "displayName": "Flat Brim"
+        },{
+            "image": "iwatch",
+            "contract": "ItemiWatch",
+            "category": "accessories",
+            "displayName": "iWatch"
+        },{
+            "image": "lei",
+            "contract": "ItemLei",
+            "category": "accessories",
+            "displayName": "lei"
+        },{
+            "image": "mittens",
+            "contract": "ItemMittens",
+            "category": "shoes",
+            "displayName": "Mittens"
+        },{
+            "image": "momtat",
+            "contract": "ItemMomTattoo",
+            "category": "accessories",
+            "displayName": "Mom Tattoo"
+        },{
+            "image": "nerd",
+            "contract": "ItemNerdGlasses",
+            "category": "glasses",
+            "displayName": "Nerd"
+        },{
+            "image": "shutter",
+            "contract": "ItemShutterShades",
+            "category": "glasses",
+            "displayName": "Shutter Shades"
+        },{
+            "image": "tiara",
+            "contract": "ItemTiara",
+            "category": "hats",
+            "displayName": "Tiara"
+        },{
+            "image": "tinfoil",
+            "contract": "ItemTinFoil",
+            "category": "hats",
+            "displayName": "Tin foil"
+        },{
+            "image": "tophat",
+            "contract": "ItemTopHat",
+            "category": "hats",
+            "displayName": "Top Hat"
+        },{
+            "image": "trapper",
+            "contract": "ItemTrapper",
+            "category": "hats",
+            "displayName": "Trapper"
+        },{
+            "image": "wayfarers",
+            "contract": "ItemWayfarers",
+            "category": "glasses",
+            "displayName": "Wayfarers"
+        }
+    ]
+}

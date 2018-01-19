@@ -1,0 +1,40 @@
+{
+    "artist": {
+        "name": "Kittyhawk",
+        "address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+        "show": true
+    },
+    "listing": [
+        {
+            "image": "balletslippers",
+            "contract": "ItemBlackBalletSlippers",
+            "category": "shoes",
+            "displayName": "Ballet Slippers"
+        },{
+            "image": "bellhop",
+            "contract": "ItemBellhop",
+            "category": "costumes",
+            "displayName": "Bellhop"
+        },{
+            "image": "bowtie",
+            "contract": "ItemBowtie",
+            "category": "accessories",
+            "displayName": "Bowtie"
+        },{
+            "image": "ladybug",
+            "contract": "ItemLadybug",
+            "category": "accessories",
+            "displayName": "Ladybug Headband"
+        },{
+            "image": "vikinghelmet",
+            "contract": "ItemVikingHat",
+            "category": "hats",
+            "displayName": "Viking Helmet"
+        },{
+            "image": "vikingshield",
+            "contract": "ItemVikingShield",
+            "category": "accessories",
+            "displayName": "Viking Shield"
+        }
+    ]
+}

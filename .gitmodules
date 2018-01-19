@@ -1,0 +1,4 @@
+[submodule "kitty-hats-truffle"]
+	path = kitty-hats-truffle
+	url = https://github.com/jordanmessina/kitty-hats-truffle
+	branch = master
