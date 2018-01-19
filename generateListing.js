@@ -12,6 +12,8 @@ const ignoredFiles = ['.DS_Store'];
 
 const isIgnoredFile = (p) => ignoredFiles.indexOf(p) >= 0;
 
+const kittyCoreAddress = "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d";
+
 
 async function readJSONFile(path) {
     var obj;
@@ -123,9 +125,19 @@ async function main() {
             }
             delete catItem['__showArtist'];
         }    
-    }
-    fs.writeFileSync(path.join(__dirname, 'build', `listing_${networkId}.json`), JSON.stringify(listing, null, '\t'));
-    fs.writeFileSync(path.join(__dirname, 'build', `artists.json`), JSON.stringify(artistListing, null, '\t'));
+    }    
+    const manifestVersion = '1.0.0';
+    const marketplaceAddress = contracts['KittyItemMarket'].networks[networkId].address
+    fs.writeFileSync(path.join(__dirname, 'build', `listing_${networkId}.json`), JSON.stringify({ 
+        version: manifestVersion,
+        networkId: networkId,
+        marketplaceAddress,
+        kittyCoreAddress: kittyCoreAddress,
+        categories: listing 
+    }, null, '\t'));
+    fs.writeFileSync(path.join(__dirname, 'build', `artists.json`), JSON.stringify({
+        version: manifestVersion, artists: artistListing 
+    }, null, '\t'));
     return 1;
 }
     
