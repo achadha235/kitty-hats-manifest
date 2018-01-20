@@ -95,9 +95,8 @@ async function main() {
                 listing[item.category].items.push({
                     name: item.displayName,
 					tokenAddress: contracts[item.contract].networks[networkId].address,
-					previewImage: `img/preview/${item.image}.svg`,
                     artist: artists[i],
-                    assetUrl: `img/asset/${item.image}.svg`,
+                    assetUrl: `${item.image}`,
                     __assetName: item.image,
                     __showArtist: manifest.artist.show
                 });

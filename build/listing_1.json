@@ -10,27 +10,23 @@
 				{
 					"name": "Chucks",
 					"tokenAddress": "0xd822ca23fcdbf5569b3ce746a81f039b27240b35",
-					"previewImage": "img/preview/chucks.svg",
-					"assetUrl": "img/asset/chucks.svg"
+					"assetUrl": "chucks"
 				},
 				{
 					"name": "Mittens",
 					"tokenAddress": "0x944bf9dfee296df739a68b07e53c97df0396dbb3",
-					"previewImage": "img/preview/mittens.svg",
-					"assetUrl": "img/asset/mittens.svg"
+					"assetUrl": "mittens"
 				},
 				{
 					"name": "Ballet Slippers",
 					"tokenAddress": "0xac740ff5f0ed950f63c86ee32ad87c0e54b50488",
-					"previewImage": "img/preview/balletslippers.svg",
 					"artist": "Kittyhawk",
-					"assetUrl": "img/asset/balletslippers.svg"
+					"assetUrl": "balletslippers"
 				},
 				{
 					"name": "Yeezys",
 					"tokenAddress": "0x6615f387e7bc610c11066cb1e534ab0f07ed8424",
-					"previewImage": "img/preview/yeezy.svg",
-					"assetUrl": "img/asset/yeezy.svg"
+					"assetUrl": "yeezy"
 				}
 			]
 		},
@@ -40,47 +36,40 @@
 				{
 					"name": "Ethereum Collar",
 					"tokenAddress": "0x280a511ebad860e945e1829e2c8435748b05d147",
-					"previewImage": "img/preview/collar.svg",
-					"assetUrl": "img/asset/collar.svg"
+					"assetUrl": "collar"
 				},
 				{
 					"name": "iWatch",
 					"tokenAddress": "0x54616a975dec9256f8fe26a99b2fcd6affbf6eaf",
-					"previewImage": "img/preview/iwatch.svg",
-					"assetUrl": "img/asset/iwatch.svg"
+					"assetUrl": "iwatch"
 				},
 				{
 					"name": "Lei",
 					"tokenAddress": "0x5e064285ec172449a85643c2000a4f1b390e16c2",
-					"previewImage": "img/preview/lei.svg",
-					"assetUrl": "img/asset/lei.svg"
+					"assetUrl": "lei"
 				},
 				{
 					"name": "Mom Tattoo",
 					"tokenAddress": "0x96e617630c15c3a4b4fde32f6eec434ae31b392f",
-					"previewImage": "img/preview/momtat.svg",
-					"assetUrl": "img/asset/momtat.svg"
+					"assetUrl": "momtat"
 				},
 				{
 					"name": "Bowtie",
 					"tokenAddress": "0xf6eb0570fb3f4ccfb21aea5603b3163d22070cf2",
-					"previewImage": "img/preview/bowtie.svg",
 					"artist": "Kittyhawk",
-					"assetUrl": "img/asset/bowtie.svg"
+					"assetUrl": "bowtie"
 				},
 				{
 					"name": "Ladybug Headband",
 					"tokenAddress": "0x04bc7647a545cc8eee31280b3e3eb3b2e8b2d978",
-					"previewImage": "img/preview/ladybug.svg",
 					"artist": "Kittyhawk",
-					"assetUrl": "img/asset/ladybug.svg"
+					"assetUrl": "ladybug"
 				},
 				{
 					"name": "Viking Shield",
 					"tokenAddress": "0x7b412a4dafbdea838e646af207999d5e05d9f077",
-					"previewImage": "img/preview/vikingshield.svg",
 					"artist": "Kittyhawk",
-					"assetUrl": "img/asset/vikingshield.svg"
+					"assetUrl": "vikingshield"
 				}
 			]
 		},
@@ -90,39 +79,33 @@
 				{
 					"name": "Flat Brim",
 					"tokenAddress": "0x64e5e8fe8210bca8ad0571b4711d77161ac459a3",
-					"previewImage": "img/preview/flatbrim.svg",
-					"assetUrl": "img/asset/flatbrim.svg"
+					"assetUrl": "flatbrim"
 				},
 				{
 					"name": "Tiara",
 					"tokenAddress": "0x2a7fa1308c075cf214e66c2caa67883da4fa508f",
-					"previewImage": "img/preview/tiara.svg",
-					"assetUrl": "img/asset/tiara.svg"
+					"assetUrl": "tiara"
 				},
 				{
 					"name": "Tin foil",
 					"tokenAddress": "0xf3126a961abc4cef0cefcb2510be431ce2782b7f",
-					"previewImage": "img/preview/tinfoil.svg",
-					"assetUrl": "img/asset/tinfoil.svg"
+					"assetUrl": "tinfoil"
 				},
 				{
 					"name": "Top Hat",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
-					"previewImage": "img/preview/tophat.svg",
-					"assetUrl": "img/asset/tophat.svg"
+					"assetUrl": "tophat"
 				},
 				{
 					"name": "Trapper",
 					"tokenAddress": "0x8b3c87830bb23da1270803f92ff8ffa9d4a67338",
-					"previewImage": "img/preview/trapper.svg",
-					"assetUrl": "img/asset/trapper.svg"
+					"assetUrl": "trapper"
 				},
 				{
 					"name": "Viking Helmet",
 					"tokenAddress": "0xb106e0cfd724fca820d342b5a4ac2526108a6a56",
-					"previewImage": "img/preview/vikinghelmet.svg",
 					"artist": "Kittyhawk",
-					"assetUrl": "img/asset/vikinghelmet.svg"
+					"assetUrl": "vikinghelmet"
 				}
 			]
 		},
@@ -132,20 +115,17 @@
 				{
 					"name": "Nerd",
 					"tokenAddress": "0x837e4831753e32437bac397cefc8da67f61a74e6",
-					"previewImage": "img/preview/nerd.svg",
-					"assetUrl": "img/asset/nerd.svg"
+					"assetUrl": "nerd"
 				},
 				{
 					"name": "Shutter Shades",
 					"tokenAddress": "0xda51c77380e3653189b65f3f3ffeec63d88f3ae8",
-					"previewImage": "img/preview/shutter.svg",
-					"assetUrl": "img/asset/shutter.svg"
+					"assetUrl": "shutter"
 				},
 				{
 					"name": "Wayfarers",
 					"tokenAddress": "0xb1df962bb6938deb7b27cdc01ea0b41395c5d426",
-					"previewImage": "img/preview/wayfarers.svg",
-					"assetUrl": "img/asset/wayfarers.svg"
+					"assetUrl": "wayfarers"
 				}
 			]
 		},
@@ -155,9 +135,8 @@
 				{
 					"name": "Bellhop",
 					"tokenAddress": "0x21fcc28ff374bb2ff28672c7047304e0950e22a6",
-					"previewImage": "img/preview/bellhop.svg",
 					"artist": "Kittyhawk",
-					"assetUrl": "img/asset/bellhop.svg"
+					"assetUrl": "bellhop"
 				}
 			]
 		}
