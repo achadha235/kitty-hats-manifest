@@ -9,22 +9,26 @@
 			"items": [
 				{
 					"name": "Chucks",
+					"contract": "ItemChucks",
 					"tokenAddress": "0x6b76731b504303a65488dbc138d7019c249b4216",
 					"assetUrl": "chucks"
 				},
 				{
 					"name": "Mittens",
+					"contract": "ItemMittens",
 					"tokenAddress": "0x7153ccd1a20bbb2f6dc89c1024de368326ec6b4f",
 					"assetUrl": "mittens"
 				},
 				{
 					"name": "Ballet Slippers",
+					"contract": "ItemBlackBalletSlippers",
 					"tokenAddress": "0x48cf3ef6af69a257a68e2350c3ce267e5c47626c",
 					"artist": "Kittyhawk",
 					"assetUrl": "balletslippers"
 				},
 				{
 					"name": "Yeezys",
+					"contract": "ItemYeezy",
 					"tokenAddress": "0xb3756baf00a7e62ee5a18a32ea39db2af5ede7fe",
 					"assetUrl": "yeezy"
 				}
@@ -35,38 +39,45 @@
 			"items": [
 				{
 					"name": "Ethereum Collar",
+					"contract": "ItemEthereumCollar",
 					"tokenAddress": "0x8c7ef141e529c5263e2a45581d1c8a39f64dc5df",
 					"assetUrl": "collar"
 				},
 				{
 					"name": "iWatch",
+					"contract": "ItemiWatch",
 					"tokenAddress": "0x1148d9138ccdc770d5a544f4ecd2738831dd5b0e",
 					"assetUrl": "iwatch"
 				},
 				{
 					"name": "Lei",
+					"contract": "ItemLei",
 					"tokenAddress": "0x3f6c622d32da3bc70730c9e677ec343cb5acfe68",
 					"assetUrl": "lei"
 				},
 				{
 					"name": "Mom Tattoo",
+					"contract": "ItemMomTattoo",
 					"tokenAddress": "0x057d2360abbe75f9fdf142f2cfe68cfc9a74ec12",
 					"assetUrl": "momtat"
 				},
 				{
 					"name": "Bowtie",
+					"contract": "ItemBowtie",
 					"tokenAddress": "0xaa862ddac09f6736a61e1124040fd883a6533c19",
 					"artist": "Kittyhawk",
 					"assetUrl": "bowtie"
 				},
 				{
 					"name": "Ladybug Headband",
+					"contract": "ItemLadybug",
 					"tokenAddress": "0x432adf73ac67ff0810eae7dec53dbf077f228a6e",
 					"artist": "Kittyhawk",
 					"assetUrl": "ladybug"
 				},
 				{
 					"name": "Viking Shield",
+					"contract": "ItemVikingShield",
 					"tokenAddress": "0x394bfb86641bf8ca8a757a318499a580cc1f26c6",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikingshield"
@@ -78,31 +89,37 @@
 			"items": [
 				{
 					"name": "Flat Brim",
+					"contract": "ItemFlatBrim",
 					"tokenAddress": "0x2e335f247e91caa168c64b63104c4475b2af3942",
 					"assetUrl": "flatbrim"
 				},
 				{
 					"name": "Tiara",
+					"contract": "ItemTiara",
 					"tokenAddress": "0x35b338b4ade005f25a8982a597638827b8617ad4",
 					"assetUrl": "tiara"
 				},
 				{
 					"name": "Tin foil",
+					"contract": "ItemTinFoil",
 					"tokenAddress": "0xde5bb8b8961faef05b2ab38a70c81bdbc91add29",
 					"assetUrl": "tinfoil"
 				},
 				{
 					"name": "Top Hat",
+					"contract": "ItemTopHat",
 					"tokenAddress": "0x27032850077abef46fc9c2b39b96885b40abc3ec",
 					"assetUrl": "tophat"
 				},
 				{
 					"name": "Trapper",
+					"contract": "ItemTrapper",
 					"tokenAddress": "0xa43bd34038ca13e7115e16770d722e62ea706212",
 					"assetUrl": "trapper"
 				},
 				{
 					"name": "Viking Helmet",
+					"contract": "ItemVikingHat",
 					"tokenAddress": "0x42874bcbea7b97551e0bf71f9693775bd005f76b",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikinghelmet"
@@ -114,16 +131,19 @@
 			"items": [
 				{
 					"name": "Nerd",
+					"contract": "ItemNerdGlasses",
 					"tokenAddress": "0x9d075ae44d859191c121d7522da0cc3b104b8837",
 					"assetUrl": "nerd"
 				},
 				{
 					"name": "Shutter Shades",
+					"contract": "ItemShutterShades",
 					"tokenAddress": "0x51815cebef59b88dafd1a5f24095eee1236ffcdd",
 					"assetUrl": "shutter"
 				},
 				{
 					"name": "Wayfarers",
+					"contract": "ItemWayfarers",
 					"tokenAddress": "0xe28158ecfde143e2536761c3254c7c31efd97271",
 					"assetUrl": "wayfarers"
 				}
@@ -134,6 +154,7 @@
 			"items": [
 				{
 					"name": "Bellhop",
+					"contract": "ItemBellhop",
 					"tokenAddress": "0xf57f76d23568e31b12f62e7b8eb880f486369bcf",
 					"artist": "Kittyhawk",
 					"assetUrl": "bellhop"

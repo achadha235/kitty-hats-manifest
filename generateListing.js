@@ -96,6 +96,7 @@ async function main() {
                     }
                     listing[item.category].items.push({
                         name: item.displayName,
+                        contract: item.contract,
                         tokenAddress: contracts[item.contract].networks[networkId].address,
                         artist: artists[i],
                         assetUrl: `${item.image}`,

@@ -9,16 +9,19 @@
 			"items": [
 				{
 					"name": "Chucks",
+					"contract": "ItemChucks",
 					"tokenAddress": "0x0f370a0b61cab0a2244b5b5a89dc7e2004c612d5",
 					"assetUrl": "chucks"
 				},
 				{
 					"name": "Mittens",
+					"contract": "ItemMittens",
 					"tokenAddress": "0xde7134090dfb98b55a48ea36d9b9f08246f5f7f3",
 					"assetUrl": "mittens"
 				},
 				{
 					"name": "Yeezys",
+					"contract": "ItemYeezy",
 					"tokenAddress": "0x9f92b9fb908981a2e2c29b8a1b6bb6390ae59186",
 					"assetUrl": "yeezy"
 				}
@@ -29,21 +32,25 @@
 			"items": [
 				{
 					"name": "Ethereum Collar",
+					"contract": "ItemEthereumCollar",
 					"tokenAddress": "0x30602f9ec0d23d2f241f2e9378d2d931f82e0375",
 					"assetUrl": "collar"
 				},
 				{
 					"name": "iWatch",
+					"contract": "ItemiWatch",
 					"tokenAddress": "0xd5640d844f788963e891f183db876ff1e1059e60",
 					"assetUrl": "iwatch"
 				},
 				{
 					"name": "Lei",
+					"contract": "ItemLei",
 					"tokenAddress": "0xed408e9cd50f563795a380c7b50334abd5b89610",
 					"assetUrl": "lei"
 				},
 				{
 					"name": "Mom Tattoo",
+					"contract": "ItemMomTattoo",
 					"tokenAddress": "0x6d8c43052988002bcead4dd20d378f2b7459c681",
 					"assetUrl": "momtat"
 				}
@@ -54,26 +61,31 @@
 			"items": [
 				{
 					"name": "Flat Brim",
+					"contract": "ItemFlatBrim",
 					"tokenAddress": "0xc4118438e4392b98e394dce876004eea0af70272",
 					"assetUrl": "flatbrim"
 				},
 				{
 					"name": "Tiara",
+					"contract": "ItemTiara",
 					"tokenAddress": "0xc0e8f2509af2950a31b2e32ca2ed96ced2185eb6",
 					"assetUrl": "tiara"
 				},
 				{
 					"name": "Tin foil",
+					"contract": "ItemTinFoil",
 					"tokenAddress": "0x56fe2f2e946be6e8734e623e389737f4ad7e94da",
 					"assetUrl": "tinfoil"
 				},
 				{
 					"name": "Top Hat",
+					"contract": "ItemTopHat",
 					"tokenAddress": "0xe177a26f28eb78d112b0a790d54c0d7177d12d96",
 					"assetUrl": "tophat"
 				},
 				{
 					"name": "Trapper",
+					"contract": "ItemTrapper",
 					"tokenAddress": "0x20a10389f91d4385c6dd9364f2b7e1166b3490fe",
 					"assetUrl": "trapper"
 				}
@@ -84,16 +96,19 @@
 			"items": [
 				{
 					"name": "Nerd",
+					"contract": "ItemNerdGlasses",
 					"tokenAddress": "0xbb9e9511ab00d3aeff24a6b0e659f3a8d03694ef",
 					"assetUrl": "nerd"
 				},
 				{
 					"name": "Shutter Shades",
+					"contract": "ItemShutterShades",
 					"tokenAddress": "0x01fd57a144e4f70995765fe6dca76e610c2a44a4",
 					"assetUrl": "shutter"
 				},
 				{
 					"name": "Wayfarers",
+					"contract": "ItemWayfarers",
 					"tokenAddress": "0xf4caddb3b54089f08b73707f05a4fc0582a1696a",
 					"assetUrl": "wayfarers"
 				}
