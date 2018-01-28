@@ -35,6 +35,46 @@
             "contract": "ItemVikingShield",
             "category": "accessories",
             "displayName": "Viking Shield"
+        },{
+            "image": "monocle",
+            "contract": "ItemMonocle",
+            "category": "accessories",
+            "displayName": "Monocle"
+        },{
+            "image": "kittyhawk_costume",
+            "contract": "ItemKittyHawk",
+            "category": "costumes",
+            "displayName": "Kittyhawk Costume"
+        },{
+            "image": "ballerina_costume",
+            "contract": "ItemBalletCostume",
+            "category": "costumes",
+            "displayName": "Ballerina Outfit"
+        },{
+            "image": "helmet_football_birdsofprey",
+            "contract": "ItemHelmetBird",
+            "category": "hats",
+            "displayName": "Birds of Prey Helmet"
+        },{
+            "image": "helmet_football_patriotic",
+            "contract": "ItemHelmetPat",
+            "category": "hats",
+            "displayName": "Patriotic Helmet"
+        },{
+            "image": "sign_pawmepls",
+            "contract": "ItemPawMePls",
+            "category": "accessories",
+            "displayName": "Paw Me Pls"
+        },{
+            "image": "gold_medal_411",
+            "contract": "ItemJodiMedal",
+            "category": "special",
+            "displayName": "411 Gold Medal Award"
+        },{
+            "image": "headband-choco",
+            "contract": "ItemChocoHeadband",
+            "category": "accessories",
+            "displayName": "Chocolate Pudding Headband"
         }
     ]
 }
