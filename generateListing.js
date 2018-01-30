@@ -31,6 +31,10 @@ async function main() {
     const contracts = await loadContracts();
     const categories = require('./categories.json');
     const artists = fs.readdirSync(artistsPath);
+        
+    await cleanDir(path.join(__dirname, 'build', 'asset'));
+    await cleanDir(path.join(__dirname, 'build', 'preview'));
+
     for (networkId of networks) {
         console.log(`BUILDING LISTING FOR NETWORK ${networkId}`);
         const names = {};
@@ -120,9 +124,7 @@ async function main() {
                 continue;
             }
         }
-        
-        await cleanDir(path.join(__dirname, 'build', 'asset'));
-        await cleanDir(path.join(__dirname, 'build', 'preview'));
+
         for (const category in listing) {
             for (const itemIdx in listing[category].items) {
                 const catItem = listing[category].items[itemIdx];

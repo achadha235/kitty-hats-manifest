@@ -41,7 +41,7 @@
 					"name": "Ethereum Collar",
 					"contract": "ItemEthereumCollar",
 					"tokenAddress": "0x8c7ef141e529c5263e2a45581d1c8a39f64dc5df",
-					"charity": "ASPCA and ETH foundation",
+					"charity": "ASPCA and ETH Foundation",
 					"assetUrl": "collar"
 				},
 				{
