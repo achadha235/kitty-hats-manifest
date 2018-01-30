@@ -75,6 +75,11 @@
             "contract": "ItemChocoHeadband",
             "category": "accessories",
             "displayName": "Chocolate Pudding Headband"
+        },{
+            "image": "glasses_3d",
+            "contract": "Item3dGlasses",
+            "category": "accessories",
+            "displayName": "3D glasses"
         }
     ]
 }

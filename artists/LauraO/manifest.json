@@ -1,0 +1,16 @@
+{
+    "artist": {
+        "name": "LauraO",
+        "address": "0x269B6f14D53Be3d47525cf356B35212fc0860450",
+        "url": "www.behance.net/LauraMODonnell",
+        "show": true
+    },
+    "listing": [
+        {
+            "image": "shower_cap",
+            "contract": "ItemShowerCap",
+            "category": "hats",
+            "displayName": "Shower Cap"
+        }
+    ]
+}
