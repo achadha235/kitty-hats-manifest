@@ -71,7 +71,7 @@
             "category": "special",
             "displayName": "411 Gold Medal Award"
         },{
-            "image": "headband-choco",
+            "image": "headband_choco",
             "contract": "ItemChocoHeadband",
             "category": "accessories",
             "displayName": "Chocolate Pudding Headband"

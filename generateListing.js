@@ -32,6 +32,7 @@ async function main() {
     const categories = require('./categories.json');
     const artists = fs.readdirSync(artistsPath);
     for (networkId of networks) {
+        console.log(`BUILDING LISTING FOR NETWORK ${networkId}`);
         const names = {};
         const displayNames = {};
     
@@ -39,6 +40,9 @@ async function main() {
         const listing = {};
         const artistListing = {};
         for (var i = 0; i < artists.length; i++) {
+            if (artists[i] === '.DS_Store') {
+                continue;
+            }
             try {
                 const manifest = await readJSONFile(path.join(artistsPath, artists[i], 'manifest.json'));
                 if (isNull(manifest) || isNull(manifest.artist) || isNull(manifest.artist.name || isNull(manifest.artist.address))) {
@@ -72,7 +76,11 @@ async function main() {
                     const imageDefined = isNonNull(item.image) && fs.existsSync(path.join(artistsPath, artists[i], 'asset', imgName));
                     const previewDefined = fs.existsSync(path.join(artistsPath, artists[i], 'preview', imgName));
                     const displayNameDefined = isNonNull(item.displayName);
-                    const addressDefined = isNonNull(item.contract) && isNonNull(contracts[item.contract]) && isNonNull(contracts[item.contract].networks[networkId].address);
+                    const addressDefined = (isNonNull(item.contract) 
+                        && isNonNull(contracts[item.contract]) 
+                        && isNonNull(contracts[item.contract].networks[networkId])
+                        && isNonNull(contracts[item.contract].networks[networkId].address)
+                    );
                     const nameAvaliable = isNull(names[item.image]) && isNull(displayNames[item.displayName]);
                     const validCategory = isNonNull(item.category) && isNonNull(categories[item.category])
     
@@ -99,6 +107,7 @@ async function main() {
                         contract: item.contract,
                         tokenAddress: contracts[item.contract].networks[networkId].address,
                         artist: artists[i],
+                        charity: item.charity ? item.charity : undefined,
                         assetUrl: `${item.image}`,
                         __assetName: item.image,
                         __showArtist: manifest.artist.show

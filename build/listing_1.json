@@ -41,6 +41,7 @@
 					"name": "Ethereum Collar",
 					"contract": "ItemEthereumCollar",
 					"tokenAddress": "0x280a511ebad860e945e1829e2c8435748b05d147",
+					"charity": "ASPCA and ETH foundation",
 					"assetUrl": "collar"
 				},
 				{
@@ -81,6 +82,27 @@
 					"tokenAddress": "0x7b412a4dafbdea838e646af207999d5e05d9f077",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikingshield"
+				},
+				{
+					"name": "Monocle",
+					"contract": "ItemMonocle",
+					"tokenAddress": "0xc08a7840a35bc9f11801479c81532b2ac72a7c82",
+					"artist": "Kittyhawk",
+					"assetUrl": "monocle"
+				},
+				{
+					"name": "Paw Me Pls",
+					"contract": "ItemPawMePls",
+					"tokenAddress": "0xba79987d39d004802a157c27436aadcc16469503",
+					"artist": "Kittyhawk",
+					"assetUrl": "sign_pawmepls"
+				},
+				{
+					"name": "Chocolate Pudding Headband",
+					"contract": "ItemChocoHeadband",
+					"tokenAddress": "0xf5353cb6ef1eeeeada2ff197d991492904fcfcad",
+					"artist": "Kittyhawk",
+					"assetUrl": "headband_choco"
 				}
 			]
 		},
@@ -103,6 +125,7 @@
 					"name": "Tin foil",
 					"contract": "ItemTinFoil",
 					"tokenAddress": "0xf3126a961abc4cef0cefcb2510be431ce2782b7f",
+					"charity": "ASPCA and ETH Foundation",
 					"assetUrl": "tinfoil"
 				},
 				{
@@ -115,6 +138,7 @@
 					"name": "Trapper",
 					"contract": "ItemTrapper",
 					"tokenAddress": "0x8b3c87830bb23da1270803f92ff8ffa9d4a67338",
+					"charity": "Pussyhat Project",
 					"assetUrl": "trapper"
 				},
 				{
@@ -123,6 +147,20 @@
 					"tokenAddress": "0xb106e0cfd724fca820d342b5a4ac2526108a6a56",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikinghelmet"
+				},
+				{
+					"name": "Birds of Prey Helmet",
+					"contract": "ItemHelmetBird",
+					"tokenAddress": "0x8f5155ddc1a859c22ba3d7a2f409175e69933cdc",
+					"artist": "Kittyhawk",
+					"assetUrl": "helmet_football_birdsofprey"
+				},
+				{
+					"name": "Patriotic Helmet",
+					"contract": "ItemHelmetPat",
+					"tokenAddress": "0x0dd3b0163c8974e1673601c06ab2a45d762aaff8",
+					"artist": "Kittyhawk",
+					"assetUrl": "helmet_football_patriotic"
 				}
 			]
 		},
@@ -158,6 +196,32 @@
 					"tokenAddress": "0x21fcc28ff374bb2ff28672c7047304e0950e22a6",
 					"artist": "Kittyhawk",
 					"assetUrl": "bellhop"
+				},
+				{
+					"name": "Kittyhawk Costume",
+					"contract": "ItemKittyHawk",
+					"tokenAddress": "0x7f08f6489c177e6b7b754d65ec14d26cdeb5aeac",
+					"artist": "Kittyhawk",
+					"assetUrl": "kittyhawk_costume"
+				},
+				{
+					"name": "Ballerina Outfit",
+					"contract": "ItemBalletCostume",
+					"tokenAddress": "0x2a11b2990dca671df8f9e71754b94eb49b62a516",
+					"artist": "Kittyhawk",
+					"assetUrl": "ballerina_costume"
+				}
+			]
+		},
+		"special": {
+			"displayName": "special",
+			"items": [
+				{
+					"name": "411 Gold Medal Award",
+					"contract": "ItemJodiMedal",
+					"tokenAddress": "0xc722587e4bc7b6b7555514b2d6dd3326f3b3ec16",
+					"artist": "Kittyhawk",
+					"assetUrl": "gold_medal_411"
 				}
 			]
 		}

@@ -14,7 +14,8 @@
             "image": "collar",
             "contract": "ItemEthereumCollar",
             "category": "accessories",
-            "displayName": "Ethereum Collar"
+            "displayName": "Ethereum Collar",
+            "charity": "ASPCA and ETH Foundation"
         },{
             "image": "flatbrim",
             "contract": "ItemFlatBrim",
@@ -59,7 +60,8 @@
             "image": "tinfoil",
             "contract": "ItemTinFoil",
             "category": "hats",
-            "displayName": "Tin foil"
+            "displayName": "Tin foil",
+            "charity": "ASPCA and ETH Foundation"
         },{
             "image": "tophat",
             "contract": "ItemTopHat",
@@ -69,7 +71,8 @@
             "image": "trapper",
             "contract": "ItemTrapper",
             "category": "hats",
-            "displayName": "Trapper"
+            "displayName": "Trapper",
+            "charity": "Pussyhat Project"
         },{
             "image": "wayfarers",
             "contract": "ItemWayfarers",

@@ -41,6 +41,7 @@
 					"name": "Ethereum Collar",
 					"contract": "ItemEthereumCollar",
 					"tokenAddress": "0x8c7ef141e529c5263e2a45581d1c8a39f64dc5df",
+					"charity": "ASPCA and ETH foundation",
 					"assetUrl": "collar"
 				},
 				{
@@ -81,6 +82,13 @@
 					"tokenAddress": "0x394bfb86641bf8ca8a757a318499a580cc1f26c6",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikingshield"
+				},
+				{
+					"name": "Monocle",
+					"contract": "ItemMonocle",
+					"tokenAddress": "0x9fd9828a17ef3402540e9d53e25b7e785021dc6e",
+					"artist": "Kittyhawk",
+					"assetUrl": "monocle"
 				}
 			]
 		},
@@ -103,6 +111,7 @@
 					"name": "Tin foil",
 					"contract": "ItemTinFoil",
 					"tokenAddress": "0xde5bb8b8961faef05b2ab38a70c81bdbc91add29",
+					"charity": "ASPCA and ETH Foundation",
 					"assetUrl": "tinfoil"
 				},
 				{
@@ -115,6 +124,7 @@
 					"name": "Trapper",
 					"contract": "ItemTrapper",
 					"tokenAddress": "0xa43bd34038ca13e7115e16770d722e62ea706212",
+					"charity": "Pussyhat Project",
 					"assetUrl": "trapper"
 				},
 				{

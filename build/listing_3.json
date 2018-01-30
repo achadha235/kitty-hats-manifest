@@ -34,6 +34,7 @@
 					"name": "Ethereum Collar",
 					"contract": "ItemEthereumCollar",
 					"tokenAddress": "0x30602f9ec0d23d2f241f2e9378d2d931f82e0375",
+					"charity": "ASPCA and ETH foundation",
 					"assetUrl": "collar"
 				},
 				{
@@ -75,6 +76,7 @@
 					"name": "Tin foil",
 					"contract": "ItemTinFoil",
 					"tokenAddress": "0x56fe2f2e946be6e8734e623e389737f4ad7e94da",
+					"charity": "ASPCA and ETH Foundation",
 					"assetUrl": "tinfoil"
 				},
 				{
@@ -87,6 +89,7 @@
 					"name": "Trapper",
 					"contract": "ItemTrapper",
 					"tokenAddress": "0x20a10389f91d4385c6dd9364f2b7e1166b3490fe",
+					"charity": "Pussyhat Project",
 					"assetUrl": "trapper"
 				}
 			]

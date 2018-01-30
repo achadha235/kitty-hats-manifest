@@ -3,5 +3,6 @@
     "hats": { "displayName": "Hats" },
     "shoes": { "displayName": "Shoes" },
     "accessories": { "displayName": "Accessories" },
-    "glasses": { "displayName": "Glasses" }
+    "glasses": { "displayName": "Glasses" },
+    "special": { "displayName": "special" }
 }
