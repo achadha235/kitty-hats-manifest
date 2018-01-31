@@ -103,6 +103,13 @@
 					"tokenAddress": "0xf5353cb6ef1eeeeada2ff197d991492904fcfcad",
 					"artist": "Kittyhawk",
 					"assetUrl": "headband_choco"
+				},
+				{
+					"name": "3D glasses",
+					"contract": "Item3dGlasses",
+					"tokenAddress": "0xddef3b261fa9a5995691838ce97eac616b34fcad",
+					"artist": "Kittyhawk",
+					"assetUrl": "glasses_3d"
 				}
 			]
 		},
@@ -161,6 +168,13 @@
 					"tokenAddress": "0x0dd3b0163c8974e1673601c06ab2a45d762aaff8",
 					"artist": "Kittyhawk",
 					"assetUrl": "helmet_football_patriotic"
+				},
+				{
+					"name": "Shower Cap",
+					"contract": "ItemShowerCap",
+					"tokenAddress": "0xb7e485240fb515cb6d38ef06824b1fa1db05ff8b",
+					"artist": "LauraO",
+					"assetUrl": "shower_cap"
 				}
 			]
 		},
