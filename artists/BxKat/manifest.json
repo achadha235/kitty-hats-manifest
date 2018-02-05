@@ -1,0 +1,40 @@
+{
+    "artist": {
+        "name": "BxKat",
+        "address": "0xbccc57c75b5ad32c9f1655480a08d4fc0fd0f925",
+        "show": true
+    },
+    "listing": [
+        {
+            "image": "candyhearts",
+            "contract": "",
+            "category": "seasonal",
+            "displayName": "Candy Hearts"
+        },{
+            "image": "heartsbg",
+            "contract": "",
+            "category": "seasonal",
+            "displayName": "Surrounded by Love"
+        },{
+            "image": "iheartu",
+            "contract": "",
+            "category": "seasonal",
+            "displayName": "Valentine's Note"
+        },{
+            "image": "yourean11",
+            "contract": "",
+            "category": "seasonal",
+            "displayName": "Strange Love"
+        },{
+            "image": "valenkitty",
+            "contract": "",
+            "category": "seasonal",
+            "displayName": "Valentine's Kitty"
+        },{
+            "image": "chocolatebox",
+            "contract": "",
+            "category": "seasonal",
+            "displayName": "Valentine's Chocolate"
+        }
+    ]
+}
