@@ -90,6 +90,16 @@
             "contract": "ItemFlowerRed",
             "category": "valentines",
             "displayName": "Hearts Headband"
+        },{
+            "image": "tophat_blue",
+            "contract": "ItemTopHatBlue",
+            "category": "hats",
+            "displayName": "Blue Top Hat"
+        },{
+            "image": "box_timemachine",
+            "contract": "ItemTimeMachine",
+            "category": "accessories",
+            "displayName": "Time Machine"
         }
     ]
 }
