@@ -2,3 +2,6 @@
 	path = kitty-hats-contracts
 	url = https://github.com/achadha235/kitty-hats-contracts.git
 	branch = master
+[submodule "artists/BxKat"]
+	path = artists/BxKat
+	url = https://github.com/uxbecks/kitten-stuff.git
