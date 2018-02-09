@@ -4,5 +4,6 @@
     "shoes": { "displayName": "Shoes" },
     "accessories": { "displayName": "Accessories" },
     "glasses": { "displayName": "Glasses" },
-    "special": { "displayName": "special" }
+    "special": { "displayName": "special" },
+    "valentines": { "displayName": "Valentines"}
 }

@@ -180,7 +180,7 @@ async function loadContracts() {
     const contractsDir = path.join(__dirname, 'kitty-hats-contracts');
     const files = fs.readdirSync(contractsDir);
     for (file of files) {
-        if (file === '.git') {
+        if (file === '.git' ||  file === 'sync.sh') {
             continue;
         }
         const name = file.split('.')[0];
