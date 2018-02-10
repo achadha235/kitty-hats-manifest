@@ -4,6 +4,32 @@
 	"marketplaceAddress": "0xfc9ec868f4c8c586d1bb7586870908cca53d5f38",
 	"kittyCoreAddress": "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
 	"categories": {
+		"valentines": {
+			"displayName": "Valentines",
+			"items": [
+				{
+					"name": "Candy Hearts",
+					"contract": "ItemValentinesCandyHearts",
+					"tokenAddress": "0xe09a0238153a0c225e1157974990b8b9559cd2b6",
+					"artist": "BxKat",
+					"assetUrl": "candyhearts"
+				},
+				{
+					"name": "Surrounded by Love",
+					"contract": "ItemValentinesHeartsBackground",
+					"tokenAddress": "0x104c09b7696744ad6f7a68af0d6cec10238a94a4",
+					"artist": "BxKat",
+					"assetUrl": "heartsbg"
+				},
+				{
+					"name": "Hearts Headband",
+					"contract": "ItemValentinesHeartsHeadband",
+					"tokenAddress": "0x88a2213dc4340b1333afa386d4db7a3b7a425230",
+					"artist": "Kittyhawk",
+					"assetUrl": "headband_heart"
+				}
+			]
+		},
 		"shoes": {
 			"displayName": "Shoes",
 			"items": [

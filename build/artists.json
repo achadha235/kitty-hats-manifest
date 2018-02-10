@@ -1,6 +1,11 @@
 {
 	"version": "1.0.0",
 	"artists": {
+		"BxKat": {
+			"name": "BxKat",
+			"address": "0xbccc57c75b5ad32c9f1655480a08d4fc0fd0f925",
+			"show": true
+		},
 		"KittyHats": {
 			"name": "KittyHats",
 			"address": "0x0",

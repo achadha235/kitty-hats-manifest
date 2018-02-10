@@ -81,13 +81,8 @@
             "category": "accessories",
             "displayName": "3D glasses"
         },{
-            "image": "flower_red",
-            "contract": "ItemFlowerRed",
-            "category": "accessories",
-            "displayName": "Flower Clip"
-        },{
             "image": "headband_heart",
-            "contract": "ItemFlowerRed",
+            "contract": "ItemValentinesHeartsHeadband",
             "category": "valentines",
             "displayName": "Hearts Headband"
         },{

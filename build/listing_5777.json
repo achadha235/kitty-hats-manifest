@@ -4,6 +4,10 @@
 	"marketplaceAddress": "0xa509542ada3196a38bd6fd03b253547ee09220c4",
 	"kittyCoreAddress": "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
 	"categories": {
+		"valentines": {
+			"displayName": "Valentines",
+			"items": []
+		},
 		"shoes": {
 			"displayName": "Shoes",
 			"items": [
