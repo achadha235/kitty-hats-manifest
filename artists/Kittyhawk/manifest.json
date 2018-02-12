@@ -95,6 +95,11 @@
             "contract": "ItemTimeMachine",
             "category": "accessories",
             "displayName": "Time Machine"
+        },{
+            "image": "beret_blue",
+            "contract": "ItemBeretBlue",
+            "category": "hats",
+            "displayName": "Blue Beret"
         }
     ]
 }
