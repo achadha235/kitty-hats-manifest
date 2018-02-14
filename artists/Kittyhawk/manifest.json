@@ -97,7 +97,7 @@
             "displayName": "Time Machine"
         },{
             "image": "beret_blue",
-            "contract": "ItemBeretBlue",
+            "contract": "ItemBeret",
             "category": "hats",
             "displayName": "Blue Beret"
         }

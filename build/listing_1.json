@@ -8,20 +8,6 @@
 			"displayName": "Valentines",
 			"items": [
 				{
-					"name": "Candy Hearts",
-					"contract": "ItemValentinesCandyHearts",
-					"tokenAddress": "0xe09a0238153a0c225e1157974990b8b9559cd2b6",
-					"artist": "BxKat",
-					"assetUrl": "candyhearts"
-				},
-				{
-					"name": "Surrounded by Love",
-					"contract": "ItemValentinesHeartsBackground",
-					"tokenAddress": "0x104c09b7696744ad6f7a68af0d6cec10238a94a4",
-					"artist": "BxKat",
-					"assetUrl": "heartsbg"
-				},
-				{
 					"name": "Hearts Headband",
 					"contract": "ItemValentinesHeartsHeadband",
 					"tokenAddress": "0x88a2213dc4340b1333afa386d4db7a3b7a425230",
@@ -136,6 +122,20 @@
 					"tokenAddress": "0xddef3b261fa9a5995691838ce97eac616b34fcad",
 					"artist": "Kittyhawk",
 					"assetUrl": "glasses_3d"
+				},
+				{
+					"name": "Time Machine",
+					"contract": "ItemTimeMachine",
+					"tokenAddress": "0x1f5a521d8fa643bf699b477b0c9edefd82864cab",
+					"artist": "Kittyhawk",
+					"assetUrl": "box_timemachine"
+				},
+				{
+					"name": "Diamond Bracelet",
+					"contract": "ItemSpikedBracelet",
+					"tokenAddress": "0x8518f0eb44247c62d07a5ff0d97137a6285554c8",
+					"artist": "janbro",
+					"assetUrl": "diamond_bracelet"
 				}
 			]
 		},
@@ -194,6 +194,20 @@
 					"tokenAddress": "0x0dd3b0163c8974e1673601c06ab2a45d762aaff8",
 					"artist": "Kittyhawk",
 					"assetUrl": "helmet_football_patriotic"
+				},
+				{
+					"name": "Blue Top Hat",
+					"contract": "ItemTopHatBlue",
+					"tokenAddress": "0xf62215163b2dbbc0b8a57f7ce8238b4d7a3b8aea",
+					"artist": "Kittyhawk",
+					"assetUrl": "tophat_blue"
+				},
+				{
+					"name": "Blue Beret",
+					"contract": "ItemBeret",
+					"tokenAddress": "0x075dd07ff62488810d30d61c93dc4be94eb31be9",
+					"artist": "Kittyhawk",
+					"assetUrl": "beret_blue"
 				},
 				{
 					"name": "Shower Cap",

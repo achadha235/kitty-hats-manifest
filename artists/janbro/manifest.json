@@ -7,7 +7,7 @@
     },
     "listing": [
         {
-            "image": "diamond_bracelet.svg",
+            "image": "diamond_bracelet",
             "contract": "ItemSpikedBracelet",
             "category": "accessories",
             "displayName": "Diamond Bracelet"
