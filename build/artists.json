@@ -22,6 +22,12 @@
 			"url": "www.behance.net/LauraMODonnell",
 			"show": true
 		},
+		"BorisToledoDoorm": {
+			"name": "Boris Toledo Doorm",
+			"address": "0x0",
+			"show": true,
+			"url": "https://dada.nyc"
+		},
 		"janbro": {
 			"name": "janbro",
 			"address": "0xA2bA02db5c34B11C1Be0A25417851C9DfC5d4467",

@@ -13,7 +13,7 @@ const ignoredFiles = ['.DS_Store'];
 const isIgnoredFile = (p) => ignoredFiles.indexOf(p) >= 0;
 
 const kittyCoreAddress = "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d";
-
+const topHatAddress = "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f";
 
 async function readJSONFile(path) {
     var obj;
@@ -26,7 +26,11 @@ async function readJSONFile(path) {
 }
 
 async function main() {
-    const networks = ['1', '3', '5777'];
+    const networks = [
+        '1',
+        '3', 
+        '5777'
+    ];
 
     const contracts = await loadContracts();
     const categories = require('./categories.json');
@@ -36,31 +40,51 @@ async function main() {
     await cleanDir(path.join(__dirname, 'build', 'preview'));
 
     for (networkId of networks) {
-        console.log(`BUILDING LISTING FOR NETWORK ${networkId}`);
+        console.log(`${'#'.repeat(80)}\nBuilding listing for Network ID: ${networkId}\n${'#'.repeat(80)}`);
         const names = {};
         const displayNames = {};
     
         const items = {};
         const listing = {};
-        const artistListing = {};
+        let artistListing = {};
         for (var i = 0; i < artists.length; i++) {
+            const isDada = artists[i] === 'dada';
             if (artists[i] === '.DS_Store') {
                 continue;
             }
             try {
+                console.log(`${'-'.repeat(80)}\nChecking manifest for ${artists[i]}...`);
                 const manifest = await readJSONFile(path.join(artistsPath, artists[i], 'manifest.json'));
-                if (isNull(manifest) || isNull(manifest.artist) || isNull(manifest.artist.name || isNull(manifest.artist.address))) {
-                    console.warn(new Error(`Manifest does not exist or is not valid for artist ${artistsPath}`));
+
+                if (isNull(manifest)) {
+                    console.error(new Error(`Manifest does not exist for artist ${artists[i]}`));
                     continue;                
+                }
+                
+                if (isNull(manifest.artist) && isNull(manifest.artists)) {
+                    console.error(new Error(`Manifest does contain artist entry for ${artists[i]}`));
+                    continue;
+                }
+                if (!isDada && isNull(manifest.artist.address)) {
+                    console.error(new Error(`Manifest does contain artist address for ${artists[i]}`));
+                    continue;
                 }
     
                 if (manifest.listing) {
-                    console.log(`Adding files for ${manifest.artist.name}...`);
+                    console.log(`Adding files for ${artists[i]}...`);
                 } else {
                     console.warn(new Error(`Manifest item listing is not defined for ${artistsPath}`));
                     continue;
                 }
-                artistListing[manifest.artist.name] = manifest.artist;
+                if (isDada) {
+                    artistListing = {
+                        ...artistListing,
+                        ...manifest.artists
+                    }
+                } else {
+                    artistListing[manifest.artist.name] = manifest.artist;
+                }
+                
     
                 let assets, preview;
                 try {
@@ -76,7 +100,7 @@ async function main() {
                 }
                 for (const j in manifest.listing) {
                     const item = manifest.listing[j];
-                    const imgName = `${item.image}.svg`;
+                    const imgName = item.category === 'dada' ? `${item.image}.png` : `${item.image}.svg`;
                     const imageDefined = isNonNull(item.image) && fs.existsSync(path.join(artistsPath, artists[i], 'asset', imgName));
                     const previewDefined = fs.existsSync(path.join(artistsPath, artists[i], 'preview', imgName));
                     const displayNameDefined = isNonNull(item.displayName);
@@ -88,7 +112,7 @@ async function main() {
                     const nameAvaliable = isNull(names[item.image]) && isNull(displayNames[item.displayName]);
                     const validCategory = isNonNull(item.category) && isNonNull(categories[item.category])
     
-                    if (imageDefined === true && previewDefined === true && displayNameDefined === true && nameAvaliable === true) {
+                    if ( (networkId === '5777' || addressDefined === true) && imageDefined === true && previewDefined === true && displayNameDefined === true && nameAvaliable === true) {
                         console.log(`\t- Copying asset ${item.displayName}`);
                     } else {
                         const errs = [`There was an error with file ${item.image} for artist ${artists[i]}`];
@@ -98,7 +122,6 @@ async function main() {
                         if (!addressDefined) { errs.push(`- Item contract does not exist for the current network`)}
                         if (!nameAvaliable) { errs.push(`- Item name and / or display name already taken`)}
                         if (!validCategory) { errs.push(`- Item category is not defined or invalid`)}
-                        console.log("Warning");
                         console.error(new Error(errs.join('\n')));
                         continue;
                     }
@@ -109,14 +132,16 @@ async function main() {
                     listing[item.category].items.push({
                         name: item.displayName,
                         contract: item.contract,
-                        tokenAddress: contracts[item.contract].networks[networkId].address,
-                        artist: artists[i],
+                        // Since we're on the mainnet, when using dev listing we're just going to use the address of the tophat
+                        tokenAddress: networkId === '5777' ? topHatAddress : contracts[item.contract].networks[networkId].address,
+                        artist: isDada ? item.artist : artists[i],
                         charity: item.charity ? item.charity : undefined,
-                        assetUrl: `${item.image}`,
-                        __assetName: item.image,
+                        image: item.image,
+                        assetUrl: imgName,
+                        __assetName: imgName,
                         __showArtist: manifest.artist.show
                     });
-                    names[item.image] = true;
+                    names[item.image.split('.')[0]] = true;
                     displayNames[item.displayName] = true;
                 }
             } catch (err) {
@@ -128,16 +153,32 @@ async function main() {
         for (const category in listing) {
             for (const itemIdx in listing[category].items) {
                 const catItem = listing[category].items[itemIdx];
-                const file = path.join(__dirname, 'artists', catItem.artist, 'asset', `${catItem['__assetName']}.svg`);
-                const filePreview = path.join(__dirname, 'artists', catItem.artist, 'preview', `${catItem['__assetName']}.svg`);
-                fs.createReadStream(file).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'asset', `${catItem['__assetName']}.svg`)));
-                fs.createReadStream(filePreview).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'preview', `${catItem['__assetName']}.svg`)));
+                const artistFolder = category === 'dada' ? category : catItem.artist;
+                const file = path.join(__dirname, 'artists', artistFolder, 'asset', `${catItem['__assetName']}`);
+                const filePreview = path.join(__dirname, 'artists', artistFolder, 'preview', `${catItem['__assetName']}`);
+                fs.createReadStream(file).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'asset', `${catItem['__assetName']}`)));
+                fs.createReadStream(filePreview).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'preview', `${catItem['__assetName']}`)));
+
+                if (category === 'dada') {
+                    const placardFileName = catItem['__assetName'].replace('.png', '-placard.svg');
+                    const filePlacard = path.join(__dirname, 'artists', artistFolder, 'asset', `${placardFileName}`);
+                    fs.createReadStream(filePlacard).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'asset', placardFileName)));
+                }
                 delete catItem['__assetName'];
+
+                catItem['assetUrl'] = catItem['image']
+                delete catItem['image'];
                 if (catItem['__showArtist'] === false) {
                     delete catItem['artist'];
                 }
                 delete catItem['__showArtist'];
-            }    
+            }
+
+            // Copy over the easel
+            if (category === 'dada') {
+                const fileEasel = path.join(__dirname, 'artists/dada', 'asset', `easel.svg`);
+                fs.createReadStream(fileEasel).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'asset', `easel.svg`)));
+            }
         }
         const manifestVersion = '1.0.0';
         const marketplaceAddress = contracts['KittyItemMarket'].networks[networkId].address
@@ -152,9 +193,6 @@ async function main() {
             version: manifestVersion, artists: artistListing 
         }, null, '\t'));
     }
-
-    
-    return 1;
 }
     
     
@@ -191,5 +229,4 @@ async function loadContracts() {
 }
 
 main()
-.then(console.log)
 .catch(console.error);

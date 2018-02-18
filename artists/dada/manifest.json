@@ -1,0 +1,22 @@
+{
+    "artist": {
+        "name": "dada"
+    },
+    "artists": {
+        "BorisToledoDoorm": {
+            "name": "Boris Toledo Doorm",
+            "address": "0x0",
+            "show": true,
+            "url": "https://dada.nyc"
+        }
+    },
+    "listing": [
+        {
+            "displayName": "The Temptation Of St. Anthony",
+            "artist": "BorisToledoDoorm",
+            "category": "dada",
+            "image": "temptation",
+            "contract": "ItemDadaTemptation"
+        }
+    ]
+}

@@ -6,7 +6,29 @@
 	"categories": {
 		"valentines": {
 			"displayName": "Valentines",
-			"items": []
+			"items": [
+				{
+					"name": "Candy Hearts",
+					"contract": "ItemValentinesCandyHearts",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "BxKat",
+					"assetUrl": "candyhearts"
+				},
+				{
+					"name": "Surrounded by Love",
+					"contract": "ItemValentinesHeartsBackground",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "BxKat",
+					"assetUrl": "heartsbg"
+				},
+				{
+					"name": "Hearts Headband",
+					"contract": "ItemValentinesHeartsHeadband",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "headband_heart"
+				}
+			]
 		},
 		"shoes": {
 			"displayName": "Shoes",
@@ -14,26 +36,26 @@
 				{
 					"name": "Chucks",
 					"contract": "ItemChucks",
-					"tokenAddress": "0x6b76731b504303a65488dbc138d7019c249b4216",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "chucks"
 				},
 				{
 					"name": "Mittens",
 					"contract": "ItemMittens",
-					"tokenAddress": "0x7153ccd1a20bbb2f6dc89c1024de368326ec6b4f",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "mittens"
 				},
 				{
 					"name": "Ballet Slippers",
 					"contract": "ItemBlackBalletSlippers",
-					"tokenAddress": "0x48cf3ef6af69a257a68e2350c3ce267e5c47626c",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "balletslippers"
 				},
 				{
 					"name": "Yeezys",
 					"contract": "ItemYeezy",
-					"tokenAddress": "0xb3756baf00a7e62ee5a18a32ea39db2af5ede7fe",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "yeezy"
 				}
 			]
@@ -44,55 +66,90 @@
 				{
 					"name": "Ethereum Collar",
 					"contract": "ItemEthereumCollar",
-					"tokenAddress": "0x8c7ef141e529c5263e2a45581d1c8a39f64dc5df",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"charity": "ASPCA and ETH Foundation",
 					"assetUrl": "collar"
 				},
 				{
 					"name": "iWatch",
 					"contract": "ItemiWatch",
-					"tokenAddress": "0x1148d9138ccdc770d5a544f4ecd2738831dd5b0e",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "iwatch"
 				},
 				{
 					"name": "Lei",
 					"contract": "ItemLei",
-					"tokenAddress": "0x3f6c622d32da3bc70730c9e677ec343cb5acfe68",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "lei"
 				},
 				{
 					"name": "Mom Tattoo",
 					"contract": "ItemMomTattoo",
-					"tokenAddress": "0x057d2360abbe75f9fdf142f2cfe68cfc9a74ec12",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "momtat"
 				},
 				{
 					"name": "Bowtie",
 					"contract": "ItemBowtie",
-					"tokenAddress": "0xaa862ddac09f6736a61e1124040fd883a6533c19",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "bowtie"
 				},
 				{
 					"name": "Ladybug Headband",
 					"contract": "ItemLadybug",
-					"tokenAddress": "0x432adf73ac67ff0810eae7dec53dbf077f228a6e",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "ladybug"
 				},
 				{
 					"name": "Viking Shield",
 					"contract": "ItemVikingShield",
-					"tokenAddress": "0x394bfb86641bf8ca8a757a318499a580cc1f26c6",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikingshield"
 				},
 				{
 					"name": "Monocle",
 					"contract": "ItemMonocle",
-					"tokenAddress": "0x9fd9828a17ef3402540e9d53e25b7e785021dc6e",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "monocle"
+				},
+				{
+					"name": "Paw Me Pls",
+					"contract": "ItemPawMePls",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "sign_pawmepls"
+				},
+				{
+					"name": "Chocolate Pudding Headband",
+					"contract": "ItemChocoHeadband",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "headband_choco"
+				},
+				{
+					"name": "3D glasses",
+					"contract": "Item3dGlasses",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "glasses_3d"
+				},
+				{
+					"name": "Time Machine",
+					"contract": "ItemTimeMachine",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "box_timemachine"
+				},
+				{
+					"name": "Diamond Bracelet",
+					"contract": "ItemSpikedBracelet",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "janbro",
+					"assetUrl": "diamond_bracelet"
 				}
 			]
 		},
@@ -102,41 +159,76 @@
 				{
 					"name": "Flat Brim",
 					"contract": "ItemFlatBrim",
-					"tokenAddress": "0x2e335f247e91caa168c64b63104c4475b2af3942",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "flatbrim"
 				},
 				{
 					"name": "Tiara",
 					"contract": "ItemTiara",
-					"tokenAddress": "0x35b338b4ade005f25a8982a597638827b8617ad4",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "tiara"
 				},
 				{
 					"name": "Tin foil",
 					"contract": "ItemTinFoil",
-					"tokenAddress": "0xde5bb8b8961faef05b2ab38a70c81bdbc91add29",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"charity": "ASPCA and ETH Foundation",
 					"assetUrl": "tinfoil"
 				},
 				{
 					"name": "Top Hat",
 					"contract": "ItemTopHat",
-					"tokenAddress": "0x27032850077abef46fc9c2b39b96885b40abc3ec",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "tophat"
 				},
 				{
 					"name": "Trapper",
 					"contract": "ItemTrapper",
-					"tokenAddress": "0xa43bd34038ca13e7115e16770d722e62ea706212",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"charity": "Pussyhat Project",
 					"assetUrl": "trapper"
 				},
 				{
 					"name": "Viking Helmet",
 					"contract": "ItemVikingHat",
-					"tokenAddress": "0x42874bcbea7b97551e0bf71f9693775bd005f76b",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "vikinghelmet"
+				},
+				{
+					"name": "Birds of Prey Helmet",
+					"contract": "ItemHelmetBird",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "helmet_football_birdsofprey"
+				},
+				{
+					"name": "Patriotic Helmet",
+					"contract": "ItemHelmetPat",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "helmet_football_patriotic"
+				},
+				{
+					"name": "Blue Top Hat",
+					"contract": "ItemTopHatBlue",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "tophat_blue"
+				},
+				{
+					"name": "Blue Beret",
+					"contract": "ItemBeret",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "beret_blue"
+				},
+				{
+					"name": "Shower Cap",
+					"contract": "ItemShowerCap",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "LauraO",
+					"assetUrl": "shower_cap"
 				}
 			]
 		},
@@ -146,19 +238,19 @@
 				{
 					"name": "Nerd",
 					"contract": "ItemNerdGlasses",
-					"tokenAddress": "0x9d075ae44d859191c121d7522da0cc3b104b8837",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "nerd"
 				},
 				{
 					"name": "Shutter Shades",
 					"contract": "ItemShutterShades",
-					"tokenAddress": "0x51815cebef59b88dafd1a5f24095eee1236ffcdd",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "shutter"
 				},
 				{
 					"name": "Wayfarers",
 					"contract": "ItemWayfarers",
-					"tokenAddress": "0xe28158ecfde143e2536761c3254c7c31efd97271",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "wayfarers"
 				}
 			]
@@ -169,9 +261,47 @@
 				{
 					"name": "Bellhop",
 					"contract": "ItemBellhop",
-					"tokenAddress": "0xf57f76d23568e31b12f62e7b8eb880f486369bcf",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "bellhop"
+				},
+				{
+					"name": "Kittyhawk Costume",
+					"contract": "ItemKittyHawk",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "kittyhawk_costume"
+				},
+				{
+					"name": "Ballerina Outfit",
+					"contract": "ItemBalletCostume",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "ballerina_costume"
+				}
+			]
+		},
+		"special": {
+			"displayName": "special",
+			"items": [
+				{
+					"name": "411 Gold Medal Award",
+					"contract": "ItemJodiMedal",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "gold_medal_411"
+				}
+			]
+		},
+		"dada": {
+			"displayName": "dada.nyc",
+			"items": [
+				{
+					"name": "The Temptation Of St. Anthony",
+					"contract": "ItemDadaTemptation",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "BorisToledoDoorm",
+					"assetUrl": "temptation"
 				}
 			]
 		}
