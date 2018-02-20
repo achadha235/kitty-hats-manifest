@@ -28,7 +28,8 @@
 					"artist": "Kittyhawk",
 					"assetUrl": "headband_heart"
 				}
-			]
+			],
+			"order": 2
 		},
 		"shoes": {
 			"displayName": "Shoes",
@@ -58,7 +59,8 @@
 					"tokenAddress": "0x6615f387e7bc610c11066cb1e534ab0f07ed8424",
 					"assetUrl": "yeezy"
 				}
-			]
+			],
+			"order": 6
 		},
 		"accessories": {
 			"displayName": "Accessories",
@@ -151,7 +153,8 @@
 					"artist": "janbro",
 					"assetUrl": "diamond_bracelet"
 				}
-			]
+			],
+			"order": 5
 		},
 		"hats": {
 			"displayName": "Hats",
@@ -230,7 +233,8 @@
 					"artist": "LauraO",
 					"assetUrl": "shower_cap"
 				}
-			]
+			],
+			"order": 4
 		},
 		"glasses": {
 			"displayName": "Glasses",
@@ -253,7 +257,8 @@
 					"tokenAddress": "0xb1df962bb6938deb7b27cdc01ea0b41395c5d426",
 					"assetUrl": "wayfarers"
 				}
-			]
+			],
+			"order": 7
 		},
 		"costumes": {
 			"displayName": "Costumes",
@@ -279,7 +284,8 @@
 					"artist": "Kittyhawk",
 					"assetUrl": "ballerina_costume"
 				}
-			]
+			],
+			"order": 3
 		},
 		"special": {
 			"displayName": "special",
@@ -291,7 +297,8 @@
 					"artist": "Kittyhawk",
 					"assetUrl": "gold_medal_411"
 				}
-			]
+			],
+			"order": 8
 		}
 	}
 }

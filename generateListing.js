@@ -127,7 +127,11 @@ async function main() {
                     }
                     const showArtist = !(item.show === false)
                     if (isNull(listing[item.category])) {
-                        listing[item.category] = { displayName: categories[item.category].displayName, items: [] }
+                        listing[item.category] = {
+                            displayName: categories[item.category].displayName,
+                            items: [],
+                            order: categories[item.category].order
+                        }
                     }
                     listing[item.category].items.push({
                         name: item.displayName,

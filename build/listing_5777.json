@@ -28,7 +28,8 @@
 					"artist": "Kittyhawk",
 					"assetUrl": "headband_heart"
 				}
-			]
+			],
+			"order": 2
 		},
 		"shoes": {
 			"displayName": "Shoes",
@@ -58,7 +59,8 @@
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "yeezy"
 				}
-			]
+			],
+			"order": 6
 		},
 		"accessories": {
 			"displayName": "Accessories",
@@ -151,7 +153,8 @@
 					"artist": "janbro",
 					"assetUrl": "diamond_bracelet"
 				}
-			]
+			],
+			"order": 5
 		},
 		"hats": {
 			"displayName": "Hats",
@@ -230,7 +233,8 @@
 					"artist": "LauraO",
 					"assetUrl": "shower_cap"
 				}
-			]
+			],
+			"order": 4
 		},
 		"glasses": {
 			"displayName": "Glasses",
@@ -253,7 +257,8 @@
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"assetUrl": "wayfarers"
 				}
-			]
+			],
+			"order": 7
 		},
 		"costumes": {
 			"displayName": "Costumes",
@@ -279,7 +284,8 @@
 					"artist": "Kittyhawk",
 					"assetUrl": "ballerina_costume"
 				}
-			]
+			],
+			"order": 3
 		},
 		"special": {
 			"displayName": "special",
@@ -291,7 +297,8 @@
 					"artist": "Kittyhawk",
 					"assetUrl": "gold_medal_411"
 				}
-			]
+			],
+			"order": 8
 		},
 		"dada": {
 			"displayName": "dada.nyc",
@@ -303,7 +310,8 @@
 					"artist": "BorisToledoDoorm",
 					"assetUrl": "temptation"
 				}
-			]
+			],
+			"order": 1
 		}
 	}
 }

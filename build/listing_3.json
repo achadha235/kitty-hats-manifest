@@ -25,7 +25,8 @@
 					"tokenAddress": "0x9f92b9fb908981a2e2c29b8a1b6bb6390ae59186",
 					"assetUrl": "yeezy"
 				}
-			]
+			],
+			"order": 6
 		},
 		"accessories": {
 			"displayName": "Accessories",
@@ -55,7 +56,8 @@
 					"tokenAddress": "0x6d8c43052988002bcead4dd20d378f2b7459c681",
 					"assetUrl": "momtat"
 				}
-			]
+			],
+			"order": 5
 		},
 		"hats": {
 			"displayName": "Hats",
@@ -92,7 +94,8 @@
 					"charity": "Pussyhat Project",
 					"assetUrl": "trapper"
 				}
-			]
+			],
+			"order": 4
 		},
 		"glasses": {
 			"displayName": "Glasses",
@@ -115,7 +118,8 @@
 					"tokenAddress": "0xf4caddb3b54089f08b73707f05a4fc0582a1696a",
 					"assetUrl": "wayfarers"
 				}
-			]
+			],
+			"order": 7
 		}
 	}
 }
