@@ -1,10 +1,34 @@
 {
-    "costumes": { "displayName": "Costumes" },
-    "hats": { "displayName": "Hats" },
-    "shoes": { "displayName": "Shoes" },
-    "accessories": { "displayName": "Accessories" },
-    "glasses": { "displayName": "Glasses" },
-    "special": { "displayName": "special" },
-    "valentines": { "displayName": "Valentines"},
-    "dada": { "displayName": "dada.nyc" }
+    "costumes": {
+        "displayName": "Costumes",
+        "order": 3
+    },
+    "hats": {
+        "displayName": "Hats",
+        "order": 4
+    },
+    "shoes": {
+        "displayName": "Shoes",
+        "order": 6
+    },
+    "accessories": {
+        "displayName": "Accessories",
+        "order": 5
+    },
+    "glasses": {
+        "displayName": "Glasses",
+        "order": 7
+    },
+    "special": {
+        "displayName": "special",
+        "order": 8
+    },
+    "valentines": {
+        "displayName": "Valentines",
+        "order": 2
+    },
+    "dada": {
+        "displayName": "dada.nyc",
+        "order": 1
+    }
 }
