@@ -3,20 +3,234 @@
         "name": "dada"
     },
     "artists": {
-        "BorisToledoDoorm": {
-            "name": "Boris Toledo Doorm",
-            "address": "0x0",
+        "BeatrizRamos@Dada": {
+            "name": "Bea",
+            "address": "0x4Ae392c271f0935a7C1f75bE87d08A168536Ff84",
             "show": true,
-            "url": "https://dada.nyc"
+            "url": "https://dada.nyc/portraits?pl=BeatrizHelenaRamos#BeatrizHelenaRamos"
+        },
+        "Betunski@Dada": {
+            "name": "Betunski",
+            "address": "ADDY",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=Vetunn#Vetunn"
+        },
+        "BorisSZimunich@Dada": {
+            "name": "Boris Z. Simunich",
+            "address": "ADDY",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=nODn6gtHXziMCjasCYFaQg#nODn6gtHXziMCjasCYFaQg"
+        },
+        "BorisToledo@Dada": {
+            "name": "Boris Toledo Doorm",
+            "address": "0x3ABFDDAB2A78c038FDd0009B4Aa425ECE86aD920",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=creadoorm#creadoorm"
+        },
+        "Cromomaniaco@Dada": {
+            "name": "CROMOMANIACO",
+            "address": "0xAd4b040c647e66C21058163e3c87b1865511C3a9",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=SCpgNGpvkxk3orDddDAiig#SCpgNGpvkxk3orDddDAiig"
+        },
+        "JavierErrecarte@Dada": {
+            "name": "Javier Errecarte",
+            "address": "0xa992AFC09846A822c749d775735e7abE9383801a",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=javier#javier"
+        },
+        "LorenaPinasco@Dada": {
+            "name": "Pinasco Lorena",
+            "address": "0x62108DD328936F073b30422B027703b982111e17",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=2UXOUwy74ZnPUqjZ7ntA1A#2UXOUwy74ZnPUqjZ7ntA1A"
+        },
+        "MaFerGarzon@Dada": {
+            "name": "Ma Fer Garzón",
+            "address": "ADDY",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=p6uVyRXKDNoJOJGm0j7_KQ#p6uVyRXKDNoJOJGm0j7_KQ"
+        },
+        "Massel@Dada": {
+            "name": "Massel",
+            "address": "0x0B78cA1cd0381e45Ff73A03e690ACBe4889ccF3F",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=b38O-dof1tSf5-5A-uElnw#b38O-dof1tSf5-5A-uElnw"
+        },
+        "RaulAvila@Dada": {
+            "name": "raulavila",
+            "address": "ADDY",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=H1EWC2It39lz_M0SIfqwxA#H1EWC2It39lz_M0SIfqwxA"
+        },
+        "VanesaStati@Dada": {
+            "name": "vVs",
+            "address": "0xF65364f73687045970135889bF945F3589C9Da93",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=hFKgOCCJ8sCdV-azttHWMQ#hFKgOCCJ8sCdV-azttHWMQ"
+        },
+        "SerenaStelitano@Dada": {
+            "name": "Serste",
+            "address": "0x20dA165deB81dBB042fE4A9d4808399eF2477c5d",
+            "show": true,
+            "url": "https://dada.nyc/portraits?pl=serenastelitanoillustrator#serenastelitanoillustrator"
         }
     },
     "listing": [
         {
-            "displayName": "The Temptation Of St. Anthony",
-            "artist": "BorisToledoDoorm",
+            "displayName": "The Scream",
+            "artist": "BeatrizRamos@Dada",
             "category": "dada",
-            "image": "temptation",
-            "contract": "ItemDadaTemptation"
+            "image": "dada-thescream",
+            "contract": "ItemDadaTheScream",
+            "url": "https://dada.nyc/pa/78673?khf=on#78673"        
+        },{
+            "displayName": "Self Portrait, Dedicated to Dr. Eloesser",
+            "artist": "BeatrizRamos@Dada",
+            "category": "dada",
+            "image": "dada-frida",
+            "contract": "ItemDadaFrida",
+            "url": "https://dada.nyc/pa/79079?khf=on#79079"        
+        },{
+            "displayName": "American Gothic",
+            "artist": "Betunski@Dada",
+            "category": "dada",
+            "image": "dada-americangothic",
+            "contract": "ItemDadaAmericanGothic",
+            "url": "https://dada.nyc/pa/79090?khf=on#79090"        
+        },{
+            "displayName": "The Creation of Adam",
+            "artist": "BorisSZimunich@Dada",
+            "category": "dada",
+            "image": "dada-creationadam",
+            "contract": "ItemDadaCreationOfAdam",
+            "url": "https://dada.nyc/pa/78095?khf=on#78095"        
+        },{
+            "displayName": "The Temptation of St. Anthony",
+            "artist": "BorisToledo@Dada",
+            "category": "dada",
+            "image": "dada-temptation",
+            "contract": "ItemDadaTemptation",
+            "url": "https://dada.nyc/pa/78484?khf=on#78484"        
+        },{
+            "displayName": "Lady with an Ermine",
+            "artist": "BorisToledo@Dada",
+            "category": "dada",
+            "image": "dada-ladywithermine",
+            "contract": "ItemDadaLadyWithErmine",
+            "url": "https://dada.nyc/pa/82624?khf=on#82624"        
+        },{
+            "displayName": "Mona Lisa",
+            "artist": "BorisToledo@Dada",
+            "category": "dada",
+            "image": "dada-monalisa",
+            "contract": "ItemDadaMonaLisa",
+            "url": "https://dada.nyc/pa/78094?khf=on#78094"        
+        },{
+            "displayName": "Bedroom in Arles",
+            "artist": "BorisToledo@Dada",
+            "category": "dada",
+            "image": "dada-pearlearring",
+            "contract": "ItemDadaBedroomArles",
+            "url": "https://dada.nyc/pa/78716?khf=on#78716"        
+        },{
+            "displayName": "Girl with a Pearl Earring",
+            "artist": "BorisToledo@Dada",
+            "category": "dada",
+            "image": "dada-pearlearring",
+            "contract": "ItemDadaPearlEarring",
+            "url": "https://dada.nyc/pa/79076?khf=on#79076"        
+        },{
+            "displayName": "The Birth of Venus",
+            "artist": "Cromomaniaco@Dada",
+            "category": "dada",
+            "image": "dada-birthvenus",
+            "contract": "ItemDadaBirthVenus",
+            "url": "https://dada.nyc/pa/78265?khf=on#78265"        
+        },{
+            "displayName": "The Raft of the Medusa",
+            "artist": "Cromomaniaco@Dada",
+            "category": "dada",
+            "image": "dada-raftmedusa",
+            "contract": "ItemDadaRaftMedusa",
+            "url": "https://dada.nyc/pa/78429?khf=on#78429"        
+        },{
+            "displayName": "Las Meninas",
+            "artist": "Cromomaniaco@Dada",
+            "category": "dada",
+            "image": "dada-lasmeninas",
+            "contract": "ItemDadaLasMeninas",
+            "url": "https://dada.nyc/pa/78945?khf=on#78945"        
+        },{
+            "displayName": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+            "artist": "JavierErrecarte@Dada",
+            "category": "dada",
+            "image": "dada-anatomylesson",
+            "contract": "ItemDadaAnatomyLesson",
+            "url": "https://dada.nyc/pa/79135?khf=on#79135"        
+        },{
+            "displayName": "Woman in Front of the Sun",
+            "artist": "LorenaPinasco@Dada",
+            "category": "dada",
+            "image": "dada-womansun",
+            "contract": "ItemDadaWomanSun",
+            "url": "https://dada.nyc/pa/78729?khf=on#78729"        
+        },{
+            "displayName": "Portrait of Adele Bloch-Bauer I",
+            "artist": "MaFerGarzon@Dada",
+            "category": "dada",
+            "image": "dada-portraitadele",
+            "contract": "ItemDadaPortraitAdele",
+            "url": "https://dada.nyc/pa/79477?khf=on#79477"        
+        },{
+            "displayName": "Seated Dancer",
+            "artist": "Massel@Dada",
+            "category": "dada",
+            "image": "dada-seateddancer",
+            "contract": "ItemDadaSeatedDancer",
+            "url": "https://dada.nyc/pa/79083?khf=on#79083"        
+        },{
+            "displayName": "The Dance Class",
+            "artist": "Massel@Dada",
+            "category": "dada",
+            "image": "dada-danceclass",
+            "contract": "ItemDadaDanceClass",
+            "url": "https://dada.nyc/pa/78708?khf=on#78708"        
+        },{
+            "displayName": "Two Women at a Window",
+            "artist": "Massel@Dada",
+            "category": "dada",
+            "image": "dada-twowomen",
+            "contract": "ItemDadaTwoWomen",
+            "url": "https://dada.nyc/pa/82944?khf=on#82944"        
+        },{
+            "displayName": "At the Moulin Rouge",
+            "artist": "RaulAvila@Dada",
+            "category": "dada",
+            "image": "dada-moulinrogue",
+            "contract": "ItemDadaMoulinRouge",
+            "url": "https://dada.nyc/pa/78674?khf=on#78674"        
+        },{
+            "displayName": "The Starry Night",
+            "artist": "VanesaStati@Dada",
+            "category": "dada",
+            "image": "dada-starrynight",
+            "contract": "ItemDadaStarryNight",
+            "url": "https://dada.nyc/pa/78678?khf=on#78678"        
+        },{
+            "displayName": "Whistler's Mother",
+            "artist": "VanesaStati@Dada",
+            "category": "dada",
+            "image": "dada-whistlersmother",
+            "contract": "ItemDadaWhistlersMother",
+            "url": "https://dada.nyc/pa/78869?khf=on#78869"        
+        },{
+            "displayName": "Jupiter and Io",
+            "artist": "SerenaStelitano@Dada",
+            "category": "dada",
+            "image": "dada-jupiterlo",
+            "contract": "ItemDadaJupiterIo",
+            "url": "https://dada.nyc/pa/79512?khf=on#79512"        
         }
     ]
 }
