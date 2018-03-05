@@ -164,7 +164,7 @@ async function main() {
                 fs.createReadStream(filePreview).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'preview', `${catItem['__assetName']}`)));
 
                 if (category === 'dada') {
-                    const placardFileName = catItem['__assetName'].replace('.png', '-placard.svg');
+                    const placardFileName = catItem['__assetName'].replace('.png', '.svg').replace('dada-', 'dada-placard-');
                     const filePlacard = path.join(__dirname, 'artists', artistFolder, 'asset', `${placardFileName}`);
                     fs.createReadStream(filePlacard).pipe(fs.createWriteStream(path.join(__dirname, 'build', 'asset', placardFileName)));
                 }
