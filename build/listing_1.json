@@ -299,6 +299,19 @@
 				}
 			],
 			"order": 8
+		},
+		"dada": {
+			"displayName": "dada.nyc",
+			"items": [
+				{
+					"name": "The Scream",
+					"contract": "ItemDadaTheScream",
+					"tokenAddress": "0xc970e68462089faac863d01fec18f7c1a4878a27",
+					"artist": "BeatrizRamos@Dada",
+					"assetUrl": "dada-thescream"
+				}
+			],
+			"order": 1
 		}
 	}
 }
