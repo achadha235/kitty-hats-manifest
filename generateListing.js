@@ -133,7 +133,7 @@ async function main() {
                             order: categories[item.category].order
                         }
                     }
-                    listing[item.category].items.push({
+                    const newItem = {
                         name: item.displayName,
                         contract: item.contract,
                         // Since we're on the mainnet, when using dev listing we're just going to use the address of the tophat
@@ -144,7 +144,9 @@ async function main() {
                         assetUrl: imgName,
                         __assetName: imgName,
                         __showArtist: manifest.artist.show
-                    });
+                    };
+                    if (item.url) newItem.url = item.url;
+                    listing[item.category].items.push(newItem);
                     names[item.image.split('.')[0]] = true;
                     displayNames[item.displayName] = true;
                 }

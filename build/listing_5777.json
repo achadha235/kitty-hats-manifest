@@ -147,6 +147,13 @@
 					"assetUrl": "box_timemachine"
 				},
 				{
+					"name": "Red Flower",
+					"contract": "ItemFlowerRed",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "flower_red"
+				},
+				{
 					"name": "Diamond Bracelet",
 					"contract": "ItemSpikedBracelet",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
@@ -308,154 +315,176 @@
 					"contract": "ItemDadaTheScream",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BeatrizRamos@Dada",
-					"assetUrl": "dada-thescream"
+					"assetUrl": "dada-thescream",
+					"url": "https://dada.nyc/pa/78673?khf=on#78673"
 				},
 				{
 					"name": "Self Portrait, Dedicated to Dr. Eloesser",
 					"contract": "ItemDadaFrida",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BeatrizRamos@Dada",
-					"assetUrl": "dada-frida"
+					"assetUrl": "dada-frida",
+					"url": "https://dada.nyc/pa/79079?khf=on#79079"
 				},
 				{
 					"name": "American Gothic",
 					"contract": "ItemDadaAmericanGothic",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Betunski@Dada",
-					"assetUrl": "dada-americangothic"
+					"assetUrl": "dada-americangothic",
+					"url": "https://dada.nyc/pa/79090?khf=on#79090"
 				},
 				{
 					"name": "The Creation of Adam",
 					"contract": "ItemDadaCreationOfAdam",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BorisSZimunich@Dada",
-					"assetUrl": "dada-creationadam"
+					"assetUrl": "dada-creationadam",
+					"url": "https://dada.nyc/pa/78095?khf=on#78095"
 				},
 				{
 					"name": "The Temptation of St. Anthony",
 					"contract": "ItemDadaTemptation",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BorisToledo@Dada",
-					"assetUrl": "dada-temptation"
+					"assetUrl": "dada-temptation",
+					"url": "https://dada.nyc/pa/78484?khf=on#78484"
 				},
 				{
 					"name": "Lady with an Ermine",
 					"contract": "ItemDadaLadyWithErmine",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BorisToledo@Dada",
-					"assetUrl": "dada-ladywithermine"
+					"assetUrl": "dada-ladywithermine",
+					"url": "https://dada.nyc/pa/82624?khf=on#82624"
 				},
 				{
 					"name": "Mona Lisa",
 					"contract": "ItemDadaMonaLisa",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BorisToledo@Dada",
-					"assetUrl": "dada-monalisa"
+					"assetUrl": "dada-monalisa",
+					"url": "https://dada.nyc/pa/78094?khf=on#78094"
 				},
 				{
 					"name": "Bedroom in Arles",
 					"contract": "ItemDadaBedroomArles",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BorisToledo@Dada",
-					"assetUrl": "dada-bedroomarles"
+					"assetUrl": "dada-bedroomarles",
+					"url": "https://dada.nyc/pa/78716?khf=on#78716"
 				},
 				{
 					"name": "Girl with a Pearl Earring",
 					"contract": "ItemDadaPearlEarring",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BorisToledo@Dada",
-					"assetUrl": "dada-pearlearring"
+					"assetUrl": "dada-pearlearring",
+					"url": "https://dada.nyc/pa/79076?khf=on#79076"
 				},
 				{
 					"name": "The Birth of Venus",
 					"contract": "ItemDadaBirthVenus",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Cromomaniaco@Dada",
-					"assetUrl": "dada-birthvenus"
+					"assetUrl": "dada-birthvenus",
+					"url": "https://dada.nyc/pa/78265?khf=on#78265"
 				},
 				{
 					"name": "The Raft of the Medusa",
 					"contract": "ItemDadaRaftMedusa",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Cromomaniaco@Dada",
-					"assetUrl": "dada-raftmedusa"
+					"assetUrl": "dada-raftmedusa",
+					"url": "https://dada.nyc/pa/78429?khf=on#78429"
 				},
 				{
 					"name": "Las Meninas",
 					"contract": "ItemDadaLasMeninas",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Cromomaniaco@Dada",
-					"assetUrl": "dada-lasmeninas"
+					"assetUrl": "dada-lasmeninas",
+					"url": "https://dada.nyc/pa/78945?khf=on#78945"
 				},
 				{
 					"name": "The Anatomy Lesson of Dr. Nicolaes Tulp",
 					"contract": "ItemDadaAnatomyLesson",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "JavierErrecarte@Dada",
-					"assetUrl": "dada-anatomylesson"
+					"assetUrl": "dada-anatomylesson",
+					"url": "https://dada.nyc/pa/79135?khf=on#79135"
 				},
 				{
 					"name": "Woman in Front of the Sun",
 					"contract": "ItemDadaWomanSun",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "LorenaPinasco@Dada",
-					"assetUrl": "dada-womansun"
+					"assetUrl": "dada-womansun",
+					"url": "https://dada.nyc/pa/78729?khf=on#78729"
 				},
 				{
 					"name": "Portrait of Adele Bloch-Bauer I",
 					"contract": "ItemDadaPortraitAdele",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "MaFerGarzon@Dada",
-					"assetUrl": "dada-portraitadele"
+					"assetUrl": "dada-portraitadele",
+					"url": "https://dada.nyc/pa/79477?khf=on#79477"
 				},
 				{
 					"name": "Seated Dancer",
 					"contract": "ItemDadaSeatedDancer",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Massel@Dada",
-					"assetUrl": "dada-seateddancer"
+					"assetUrl": "dada-seateddancer",
+					"url": "https://dada.nyc/pa/79083?khf=on#79083"
 				},
 				{
 					"name": "The Dance Class",
 					"contract": "ItemDadaDanceClass",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Massel@Dada",
-					"assetUrl": "dada-danceclass"
+					"assetUrl": "dada-danceclass",
+					"url": "https://dada.nyc/pa/78708?khf=on#78708"
 				},
 				{
 					"name": "Two Women at a Window",
 					"contract": "ItemDadaTwoWomen",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Massel@Dada",
-					"assetUrl": "dada-twowomen"
+					"assetUrl": "dada-twowomen",
+					"url": "https://dada.nyc/pa/82944?khf=on#82944"
 				},
 				{
 					"name": "At the Moulin Rouge",
 					"contract": "ItemDadaMoulinRouge",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "RaulAvila@Dada",
-					"assetUrl": "dada-moulinrogue"
+					"assetUrl": "dada-moulinrogue",
+					"url": "https://dada.nyc/pa/78674?khf=on#78674"
 				},
 				{
 					"name": "The Starry Night",
 					"contract": "ItemDadaStarryNight",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "VanesaStati@Dada",
-					"assetUrl": "dada-starrynight"
+					"assetUrl": "dada-starrynight",
+					"url": "https://dada.nyc/pa/78678?khf=on#78678"
 				},
 				{
 					"name": "Whistler's Mother",
 					"contract": "ItemDadaWhistlersMother",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "VanesaStati@Dada",
-					"assetUrl": "dada-whistlersmother"
+					"assetUrl": "dada-whistlersmother",
+					"url": "https://dada.nyc/pa/78869?khf=on#78869"
 				},
 				{
 					"name": "Jupiter and Io",
 					"contract": "ItemDadaJupiterIo",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "SerenaStelitano@Dada",
-					"assetUrl": "dada-jupiterlo"
+					"assetUrl": "dada-jupiterlo",
+					"url": "https://dada.nyc/pa/79512?khf=on#79512"
 				}
 			],
 			"order": 1

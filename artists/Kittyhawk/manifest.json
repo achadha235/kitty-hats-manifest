@@ -102,7 +102,7 @@
             "displayName": "Blue Beret"
         },{
             "image": "flower_red",
-            "contract": "ItemFlower",
+            "contract": "ItemFlowerRed",
             "category": "accessories",
             "displayName": "Red Flower"
         }
