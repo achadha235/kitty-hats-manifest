@@ -107,7 +107,7 @@
             "displayName": "Red Flower"
         },{
             "image": "k4c_balloon",
-            "contract": "ItemK4CBalloon",
+            "contract": "ItemBellaBalloon",
             "category": "special",
             "displayName": "Kitties for a Cause Exclusive"
         }
