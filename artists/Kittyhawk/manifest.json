@@ -105,6 +105,11 @@
             "contract": "ItemFlowerRed",
             "category": "accessories",
             "displayName": "Red Flower"
+        },{
+            "image": "k4c_balloon",
+            "contract": "ItemK4CBalloon",
+            "category": "special",
+            "displayName": "Kitties for a Cause Exclusive"
         }
     ]
 }
