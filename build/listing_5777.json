@@ -303,6 +303,13 @@
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "gold_medal_411"
+				},
+				{
+					"name": "Kitties for a Cause Exclusive",
+					"contract": "ItemBellaBalloon",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "k4c_balloon"
 				}
 			],
 			"order": 8
