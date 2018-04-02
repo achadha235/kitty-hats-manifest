@@ -4,6 +4,75 @@
 	"marketplaceAddress": "0xfc9ec868f4c8c586d1bb7586870908cca53d5f38",
 	"kittyCoreAddress": "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
 	"categories": {
+		"memes": {
+			"displayName": "Memes",
+			"items": [
+				{
+					"name": "Cucumbers Behind Cats",
+					"contract": "ItemMemeCucumber",
+					"tokenAddress": "0x5c7c99a3ce83c3400ea21608651e7941a7ff1b92",
+					"artist": "BxKat",
+					"assetUrl": "cucumber"
+				},
+				{
+					"name": "Chemistry Cat",
+					"contract": "ItemMemeScience",
+					"tokenAddress": "0xcc45a3f00a5a672b3f2f3efcf9a8325db9448bc0",
+					"artist": "BxKat",
+					"assetUrl": "chemistrycat"
+				},
+				{
+					"name": "Bread your Cat",
+					"contract": "ItemMemeBread",
+					"tokenAddress": "0x2881d326f657c31fc538caa72c8c8ea5dc9da9a9",
+					"artist": "BxKat",
+					"assetUrl": "breading"
+				},
+				{
+					"name": "Keyboard Cat",
+					"contract": "ItemMemeKeyboard",
+					"tokenAddress": "0x98f1ada35615e768aa30e217f62d52fa723bcda6",
+					"artist": "BxKat",
+					"assetUrl": "keyboard"
+				},
+				{
+					"name": "Too Tiny Box",
+					"contract": "ItemMemeMaruBox",
+					"tokenAddress": "0xae49153ec8d6aed68d0d165a946684d9e27fd9b1",
+					"artist": "BxKat",
+					"assetUrl": "tinybox"
+				},
+				{
+					"name": "More treats?! Strawberry",
+					"contract": "ItemMemeStrawberryHat",
+					"tokenAddress": "0x8d0d00744df3c57d434f82b15cb1a643ba46cd67",
+					"artist": "BxKat",
+					"assetUrl": "strawberryhat"
+				},
+				{
+					"name": "More treats?! Pumpkin",
+					"contract": "ItemMemePumpkinHat",
+					"tokenAddress": "0xde4e1963fbd541bf51e6eeb8a95326623aca17a8",
+					"artist": "BxKat",
+					"assetUrl": "pumpkinhat"
+				},
+				{
+					"name": "Birdy",
+					"contract": "ItemDeadBird",
+					"tokenAddress": "0x4ef99102c1bcd63dc441a1887c65b419ee0effac",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "birdy"
+				},
+				{
+					"name": "Deal With It Shades",
+					"contract": "ItemMemeDealWithItShades",
+					"tokenAddress": "0x7a72acc9b57c7c58189dd3370edbfb03621bd9a1",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "dealwithit"
+				}
+			],
+			"order": 1
+		},
 		"valentines": {
 			"displayName": "Valentines",
 			"items": [
@@ -29,7 +98,7 @@
 					"assetUrl": "headband_heart"
 				}
 			],
-			"order": 2
+			"order": 3
 		},
 		"shoes": {
 			"displayName": "Shoes",
@@ -60,7 +129,7 @@
 					"assetUrl": "yeezy"
 				}
 			],
-			"order": 6
+			"order": 7
 		},
 		"accessories": {
 			"displayName": "Accessories",
@@ -161,7 +230,7 @@
 					"assetUrl": "diamond_bracelet"
 				}
 			],
-			"order": 5
+			"order": 6
 		},
 		"hats": {
 			"displayName": "Hats",
@@ -241,7 +310,7 @@
 					"assetUrl": "shower_cap"
 				}
 			],
-			"order": 4
+			"order": 5
 		},
 		"glasses": {
 			"displayName": "Glasses",
@@ -265,7 +334,7 @@
 					"assetUrl": "wayfarers"
 				}
 			],
-			"order": 7
+			"order": 8
 		},
 		"costumes": {
 			"displayName": "Costumes",
@@ -292,7 +361,7 @@
 					"assetUrl": "ballerina_costume"
 				}
 			],
-			"order": 3
+			"order": 4
 		},
 		"special": {
 			"displayName": "special",
@@ -307,12 +376,12 @@
 				{
 					"name": "Kitties for a Cause Exclusive",
 					"contract": "ItemBellaBalloon",
-					"tokenAddress": "0x1fed670f81162db861dd41b8125ec2ded36f26b3",
+					"tokenAddress": "0x3fc20c022036dd0f854aa8ade6706859a35a3995",
 					"artist": "Kittyhawk",
 					"assetUrl": "k4c_balloon"
 				}
 			],
-			"order": 8
+			"order": 9
 		},
 		"dada": {
 			"displayName": "dada.nyc",
@@ -494,7 +563,7 @@
 					"url": "https://dada.nyc/pa/79512?khf=on#79512"
 				}
 			],
-			"order": 1
+			"order": 2
 		}
 	}
 }

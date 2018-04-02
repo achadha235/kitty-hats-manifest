@@ -26,7 +26,7 @@
 					"assetUrl": "yeezy"
 				}
 			],
-			"order": 6
+			"order": 7
 		},
 		"accessories": {
 			"displayName": "Accessories",
@@ -57,7 +57,7 @@
 					"assetUrl": "momtat"
 				}
 			],
-			"order": 5
+			"order": 6
 		},
 		"hats": {
 			"displayName": "Hats",
@@ -95,7 +95,7 @@
 					"assetUrl": "trapper"
 				}
 			],
-			"order": 4
+			"order": 5
 		},
 		"glasses": {
 			"displayName": "Glasses",
@@ -119,7 +119,7 @@
 					"assetUrl": "wayfarers"
 				}
 			],
-			"order": 7
+			"order": 8
 		}
 	}
 }

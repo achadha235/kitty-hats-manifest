@@ -5,3 +5,6 @@
 [submodule "artists/BxKat"]
 	path = artists/BxKat
 	url = https://github.com/uxbecks/kitten-stuff.git
+[submodule "artists/ParanoidLunatic"]
+	path = artists/ParanoidLunatic
+	url = https://github.com/ParanoidLunaticCK/KittyHats
