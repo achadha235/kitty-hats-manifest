@@ -57,13 +57,6 @@
 					"assetUrl": "pumpkinhat"
 				},
 				{
-					"name": "Birdy",
-					"contract": "ItemDeadBird",
-					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
-					"artist": "ParanoidLunatic",
-					"assetUrl": "birdy"
-				},
-				{
 					"name": "Deal With It Shades",
 					"contract": "ItemMemeDealWithItShades",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
@@ -221,6 +214,13 @@
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "flower_red"
+				},
+				{
+					"name": "Dead Bird",
+					"contract": "ItemDeadBird",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "birdy"
 				},
 				{
 					"name": "Diamond Bracelet",
