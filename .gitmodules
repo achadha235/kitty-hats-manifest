@@ -8,3 +8,6 @@
 [submodule "artists/ParanoidLunatic"]
 	path = artists/ParanoidLunatic
 	url = https://github.com/ParanoidLunaticCK/KittyHats
+[submodule "artists/ADHDKitties"]
+	path = artists/ADHDKitties
+	url = https://github.com/ADHDKitties/Kittyhats_stuff

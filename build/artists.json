@@ -1,6 +1,11 @@
 {
 	"version": "1.0.0",
 	"artists": {
+		"ADHDKitties": {
+			"name": "ADHDKitties",
+			"address": "0x4027B203A16158a39b80B2d3a353cA4870dCa63e",
+			"show": true
+		},
 		"BxKat": {
 			"name": "BxKat",
 			"address": "0xbccc57c75b5ad32c9f1655480a08d4fc0fd0f925",
