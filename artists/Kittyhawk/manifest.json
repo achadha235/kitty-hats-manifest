@@ -110,6 +110,11 @@
             "contract": "ItemBellaBalloon",
             "category": "special",
             "displayName": "Kitties for a Cause Exclusive"
+        },{
+            "image": "bubbles4sadie",
+            "contract": "ItemBubblesForSadie",
+            "category": "accessories",
+            "displayName": "Bubbles For Sadie (#K4C)"
         }
     ]
 }
