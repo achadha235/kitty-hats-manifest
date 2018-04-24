@@ -114,7 +114,8 @@
             "image": "bubbles4sadie",
             "contract": "ItemBubblesForSadie",
             "category": "accessories",
-            "displayName": "Bubbles For Sadie (#K4C)"
+            "displayName": "Bubbles For Sadie (#K4C)",
+            "charity": "Kitties For a Cause"
         }
     ]
 }
