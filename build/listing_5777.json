@@ -9,14 +9,14 @@
 			"items": [
 				{
 					"name": "Surprised Patrick Party Hat",
-					"contract": "0xe5fa56d5e302aa1328c7346831abdf85be1f77ff",
+					"contract": "ItemMemePatrick",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "ADHDKitties",
 					"assetUrl": "patrickstarfishhat"
 				},
 				{
 					"name": "Tie'd Pod",
-					"contract": "0x9cbd70665cfc178dd5598bd8b9e3cccebe34f948",
+					"contract": "ItemMemeTidePod",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "ADHDKitties",
 					"assetUrl": "tidepodbowtie"
@@ -71,15 +71,8 @@
 					"assetUrl": "pumpkinhat"
 				},
 				{
-					"name": "Dead Bird",
-					"contract": "0x4ef99102c1bcd63dc441a1887c65b419ee0effac",
-					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
-					"artist": "ParanoidLunatic",
-					"assetUrl": "birdy"
-				},
-				{
 					"name": "Deal With It Shades",
-					"contract": "0x7a72acc9b57c7c58189dd3370edbfb03621bd9a1",
+					"contract": "ItemMemeDealWithItShades",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "ParanoidLunatic",
 					"assetUrl": "dealwithit"
@@ -91,7 +84,7 @@
 			"displayName": "Accessories",
 			"items": [
 				{
-					"name": "Ball of Yarn",
+					"name": "Fuzzy Ball of Yarn",
 					"contract": "ItemYarn",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "BxKat",
@@ -184,6 +177,20 @@
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "Kittyhawk",
 					"assetUrl": "flower_red"
+				},
+				{
+					"name": "Bubbles For Sadie (#K4C)",
+					"contract": "ItemBubblesForSadie",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "bubbles4sadie"
+				},
+				{
+					"name": "Dead Bird",
+					"contract": "ItemDeadBird",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "birdy"
 				},
 				{
 					"name": "Diamond Bracelet",
@@ -332,10 +339,17 @@
 				},
 				{
 					"name": "Cheesehead Hat",
-					"contract": "0x17185d3b4d1e2630366886f78cb11d6ec807df40",
+					"contract": "ItemCheeseheadHat",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
 					"artist": "ParanoidLunatic",
 					"assetUrl": "cheesehat"
+				},
+				{
+					"name": "Construction Hat",
+					"contract": "ItemHardHat",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "construction"
 				}
 			],
 			"order": 5
