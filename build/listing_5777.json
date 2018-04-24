@@ -8,13 +8,6 @@
 			"displayName": "Memes",
 			"items": [
 				{
-					"name": "Surprised Patrick Party Hat",
-					"contract": "ItemMemePatrick",
-					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
-					"artist": "ADHDKitties",
-					"assetUrl": "patrickstarfishhat"
-				},
-				{
 					"name": "Tie'd Pod",
 					"contract": "ItemMemeTidePod",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
